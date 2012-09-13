@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 12 Sep 2012 23:08:29 CEST
+EESchema Schematic File Version 2  date Thu 13 Sep 2012 11:43:37 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:sideB-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "12 sep 2012"
+Date "13 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -43,8 +44,42 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2600 3200 0    60   ~ 0
-Push-switch operated 4-bit up binary counter
+Text Notes 9450 4100 0    60   ~ 0
+4 bits ADC
+Wire Notes Line
+	10100 4200 5500 4200
+Wire Notes Line
+	10100 4200 10100 800 
+Wire Notes Line
+	10100 800  5500 800 
+Wire Notes Line
+	5500 800  5500 4200
+Wire Wire Line
+	5850 2700 5850 2550
+Wire Wire Line
+	7500 1100 7050 1100
+Connection ~ 7050 2100
+Wire Wire Line
+	7050 2100 7350 2100
+Wire Wire Line
+	7050 1100 7050 3200
+Wire Wire Line
+	7050 3200 7350 3200
+Connection ~ 6800 2850
+Wire Wire Line
+	7350 2850 6800 2850
+Wire Wire Line
+	7350 1700 6800 1700
+Wire Wire Line
+	6800 3500 6800 3400
+Wire Wire Line
+	6800 2200 6800 2300
+Wire Wire Line
+	6800 1000 6800 1100
+Wire Wire Line
+	9200 1600 9100 1600
+Wire Wire Line
+	8350 1600 8700 1600
 Wire Notes Line
 	1000 3250 4850 3250
 Wire Notes Line
@@ -107,6 +142,294 @@ Wire Wire Line
 	1900 1700 1900 1750
 Wire Wire Line
 	1900 1750 1350 1750
+Wire Wire Line
+	9850 1650 9850 1600
+Wire Wire Line
+	9850 1600 9700 1600
+Wire Wire Line
+	9700 2200 9850 2200
+Wire Wire Line
+	9850 2200 9850 2250
+Wire Wire Line
+	8350 2200 8700 2200
+Wire Wire Line
+	9200 2200 9100 2200
+Wire Wire Line
+	9200 3300 9100 3300
+Wire Wire Line
+	8350 3300 8700 3300
+Wire Wire Line
+	9850 3350 9850 3300
+Wire Wire Line
+	9850 3300 9700 3300
+Wire Wire Line
+	9700 2750 9850 2750
+Wire Wire Line
+	9850 2750 9850 2800
+Wire Wire Line
+	8350 2750 8700 2750
+Wire Wire Line
+	9200 2750 9100 2750
+Wire Wire Line
+	6800 1700 6800 1600
+Wire Wire Line
+	6800 2800 6800 2900
+Wire Wire Line
+	6800 4000 6800 4100
+Wire Wire Line
+	6800 2300 7350 2300
+Wire Wire Line
+	6800 3400 7350 3400
+Wire Wire Line
+	7050 1500 7350 1500
+Connection ~ 7050 1500
+Wire Wire Line
+	7350 2650 7050 2650
+Connection ~ 7050 2650
+Wire Wire Line
+	6500 2300 6000 2300
+Wire Wire Line
+	5850 2050 5850 1950
+$Comp
+L GND #PWR?
+U 1 1 5051AA37
+P 5850 2700
+F 0 "#PWR?" H 5850 2700 30  0001 C CNN
+F 1 "GND" H 5850 2630 30  0001 C CNN
+	1    5850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5051AA2B
+P 5850 1950
+F 0 "#PWR?" H 5850 2040 20  0001 C CNN
+F 1 "+5V" H 5850 2040 30  0000 C CNN
+	1    5850 1950
+	1    0    0    -1  
+$EndComp
+Text Label 6500 2300 2    60   ~ 0
+AN_INPUT
+$Comp
+L POT RV?
+U 1 1 5051A9D1
+P 5850 2300
+F 0 "RV?" H 5850 2200 50  0000 C CNN
+F 1 "POT" H 5850 2300 50  0000 C CNN
+	1    5850 2300
+	0    1    1    0   
+$EndComp
+Text Label 7500 1100 2    60   ~ 0
+AN_INPUT
+$Comp
+L +5V #PWR?
+U 1 1 5051A869
+P 6800 1000
+F 0 "#PWR?" H 6800 1090 20  0001 C CNN
+F 1 "+5V" H 6800 1090 30  0000 C CNN
+	1    6800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5051A85F
+P 6800 4100
+F 0 "#PWR?" H 6800 4100 30  0001 C CNN
+F 1 "GND" H 6800 4030 30  0001 C CNN
+	1    6800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A830
+P 6800 1350
+F 0 "R?" V 6880 1350 50  0000 C CNN
+F 1 "R" V 6800 1350 50  0000 C CNN
+	1    6800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A82E
+P 6800 3150
+F 0 "R?" V 6880 3150 50  0000 C CNN
+F 1 "R" V 6800 3150 50  0000 C CNN
+	1    6800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A82D
+P 6800 3750
+F 0 "R?" V 6880 3750 50  0000 C CNN
+F 1 "R" V 6800 3750 50  0000 C CNN
+	1    6800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A821
+P 6800 2550
+F 0 "R?" V 6880 2550 50  0000 C CNN
+F 1 "R" V 6800 2550 50  0000 C CNN
+	1    6800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A811
+P 6800 1950
+F 0 "R?" V 6880 1950 50  0000 C CNN
+F 1 "R" V 6800 1950 50  0000 C CNN
+	1    6800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5051A7F5
+P 8900 2750
+F 0 "D?" H 8900 2850 50  0000 C CNN
+F 1 "LED" H 8900 2650 50  0000 C CNN
+	1    8900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A7F4
+P 9450 2750
+F 0 "R?" V 9530 2750 50  0000 C CNN
+F 1 "R" V 9450 2750 50  0000 C CNN
+	1    9450 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5051A7F3
+P 9850 2800
+F 0 "#PWR?" H 9850 2800 30  0001 C CNN
+F 1 "GND" H 9850 2730 30  0001 C CNN
+	1    9850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5051A7F2
+P 9850 3350
+F 0 "#PWR?" H 9850 3350 30  0001 C CNN
+F 1 "GND" H 9850 3280 30  0001 C CNN
+	1    9850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A7F1
+P 9450 3300
+F 0 "R?" V 9530 3300 50  0000 C CNN
+F 1 "R" V 9450 3300 50  0000 C CNN
+	1    9450 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5051A7F0
+P 8900 3300
+F 0 "D?" H 8900 3400 50  0000 C CNN
+F 1 "LED" H 8900 3200 50  0000 C CNN
+	1    8900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5051A7C8
+P 8900 2200
+F 0 "D?" H 8900 2300 50  0000 C CNN
+F 1 "LED" H 8900 2100 50  0000 C CNN
+	1    8900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A7C7
+P 9450 2200
+F 0 "R?" V 9530 2200 50  0000 C CNN
+F 1 "R" V 9450 2200 50  0000 C CNN
+	1    9450 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5051A7C6
+P 9850 2250
+F 0 "#PWR?" H 9850 2250 30  0001 C CNN
+F 1 "GND" H 9850 2180 30  0001 C CNN
+	1    9850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5051A766
+P 9850 1650
+F 0 "#PWR?" H 9850 1650 30  0001 C CNN
+F 1 "GND" H 9850 1580 30  0001 C CNN
+	1    9850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A727
+P 9450 1600
+F 0 "R?" V 9530 1600 50  0000 C CNN
+F 1 "R" V 9450 1600 50  0000 C CNN
+	1    9450 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5051A6DD
+P 8900 1600
+F 0 "D?" H 8900 1700 50  0000 C CNN
+F 1 "LED" H 8900 1500 50  0000 C CNN
+	1    8900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM2902N U?
+U 1 1 5051A60E
+P 7850 3300
+F 0 "U?" H 7900 3500 60  0000 C CNN
+F 1 "LM2902N" H 8000 3100 50  0000 C CNN
+	1    7850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM2902N U?
+U 1 1 5051A607
+P 7850 2750
+F 0 "U?" H 7900 2950 60  0000 C CNN
+F 1 "LM2902N" H 8000 2550 50  0000 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM2902N U?
+U 1 1 5051A600
+P 7850 2200
+F 0 "U?" H 7900 2400 60  0000 C CNN
+F 1 "LM2902N" H 8000 2000 50  0000 C CNN
+	1    7850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM2902N U?
+U 1 1 5051A5FB
+P 7850 1600
+F 0 "U?" H 7900 1800 60  0000 C CNN
+F 1 "LM2902N" H 8000 1400 50  0000 C CNN
+	1    7850 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 2600 3200 0    60   ~ 0
+Push-switch operated 4-bit up binary counter
 $Comp
 L GND #PWR?
 U 1 1 5050F5A8
