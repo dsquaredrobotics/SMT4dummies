@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 11 Sep 2012 20:17:16 CEST
+EESchema Schematic File Version 2  date Sun 16 Sep 2012 04:57:22 AM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,18 +29,295 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "11 sep 2012"
+Title "SMT4dummies - sideA"
+Date "16 sep 2012"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "d-Squared Robotics"
+Comment1 "GPLv3"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3350 2250 3500 2250
+Wire Wire Line
+	3500 1000 3500 2050
+Wire Wire Line
+	4450 2450 4000 2450
+Wire Wire Line
+	1100 3000 2600 3000
+Wire Wire Line
+	4000 1000 4000 1100
+Connection ~ 4350 3600
+Wire Wire Line
+	4350 3500 4350 3600
+Wire Wire Line
+	5500 2950 5500 3600
+Wire Wire Line
+	3500 2250 3500 3600
+Connection ~ 5100 2750
+Wire Wire Line
+	5100 2900 5100 2450
+Connection ~ 5500 2250
+Wire Wire Line
+	5500 2550 5500 2100
+Wire Wire Line
+	5500 2250 4950 2250
+Wire Wire Line
+	4000 1500 4000 1600
+Wire Wire Line
+	4000 2550 4000 2100
+Wire Wire Line
+	950  2000 1100 2000
+Wire Wire Line
+	1100 2000 1100 3000
+Wire Wire Line
+	2600 3000 2600 2600
+Wire Wire Line
+	2600 2200 2600 2100
+Connection ~ 1600 2400
+Wire Wire Line
+	1700 2400 1600 2400
+Connection ~ 1600 1000
+Wire Wire Line
+	1600 1500 1600 1000
+Wire Wire Line
+	2600 1100 2600 1000
+Wire Wire Line
+	1100 1800 1100 1000
+Wire Wire Line
+	1100 1800 1000 1800
+Wire Wire Line
+	1600 2500 1600 2100
+Wire Wire Line
+	2200 2400 2300 2400
+Wire Wire Line
+	2600 1600 2600 1500
+Wire Wire Line
+	1600 2900 1600 3000
+Connection ~ 1600 3000
+Connection ~ 4000 2450
+Wire Wire Line
+	5100 2750 5200 2750
+Wire Wire Line
+	5100 2450 4950 2450
+Wire Wire Line
+	5500 1500 5500 1600
+Wire Wire Line
+	4450 2250 3600 2250
+Wire Wire Line
+	3600 2250 3600 2750
+Wire Wire Line
+	3600 2750 3700 2750
+Wire Wire Line
+	4350 2900 4350 2250
+Connection ~ 4350 2250
+Wire Wire Line
+	3500 3600 5500 3600
+Wire Wire Line
+	5100 3500 5100 3600
+Connection ~ 5100 3600
+Wire Wire Line
+	4000 2950 4000 3600
+Connection ~ 4000 3600
+Wire Wire Line
+	5500 1100 5500 1000
+Wire Wire Line
+	1100 1000 2600 1000
+Wire Wire Line
+	5500 1000 3500 1000
+Wire Wire Line
+	3500 2050 3400 2050
+Text Notes 5150 3800 0    60   ~ 0
+Memory\n
+$Comp
+L SW_PUSH SW?
+U 1 1 5055BB35
+P 4350 3200
+F 0 "SW?" H 4500 3310 50  0000 C CNN
+F 1 "SW_PUSH" H 4350 3120 50  0000 C CNN
+	1    4350 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5055BB28
+P 5100 3200
+F 0 "SW?" H 5250 3310 50  0000 C CNN
+F 1 "SW_PUSH" H 5100 3120 50  0000 C CNN
+	1    5100 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5055B3BC
+P 4700 2250
+F 0 "R?" V 4780 2250 50  0000 C CNN
+F 1 "R" V 4700 2250 50  0000 C CNN
+	1    4700 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5055B3AE
+P 4700 2450
+F 0 "R?" V 4780 2450 50  0000 C CNN
+F 1 "R" V 4700 2450 50  0000 C CNN
+	1    4700 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5055B357
+P 3350 2250
+F 0 "#PWR01" H 3350 2250 30  0001 C CNN
+F 1 "GND" H 3350 2180 30  0001 C CNN
+	1    3350 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 5055B33A
+P 3400 2050
+F 0 "#PWR02" H 3400 2140 20  0001 C CNN
+F 1 "+5V" H 3400 2140 30  0000 C CNN
+	1    3400 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BC237 Q?
+U 1 1 5055B0D0
+P 5400 2750
+F 0 "Q?" H 5600 2650 50  0000 C CNN
+F 1 "BC237" H 5650 2900 50  0000 C CNN
+F 2 "TO92-EBC" H 5590 2750 30  0001 C CNN
+	1    5400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC237 Q?
+U 1 1 5055B0B6
+P 3900 2750
+F 0 "Q?" H 4100 2650 50  0000 C CNN
+F 1 "BC237" H 4150 2900 50  0000 C CNN
+F 2 "TO92-EBC" H 4090 2750 30  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5055AFCE
+P 5500 1850
+F 0 "R?" V 5580 1850 50  0000 C CNN
+F 1 "R" V 5500 1850 50  0000 C CNN
+	1    5500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5055AFCA
+P 4000 1850
+F 0 "R?" V 4080 1850 50  0000 C CNN
+F 1 "R" V 4000 1850 50  0000 C CNN
+	1    4000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5055AFBC
+P 5500 1300
+F 0 "D?" H 5500 1400 50  0000 C CNN
+F 1 "LED" H 5500 1200 50  0000 C CNN
+	1    5500 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5051E656
+P 4000 1300
+F 0 "D?" H 4000 1400 50  0000 C CNN
+F 1 "LED" H 4000 1200 50  0000 C CNN
+	1    4000 1300
+	0    1    1    0   
+$EndComp
+Text Notes 1800 3200 0    60   ~ 0
+Time delay switch 
+$Comp
+L GND #PWR03
+U 1 1 5051ADDA
+P 950 2000
+F 0 "#PWR03" H 950 2000 30  0001 C CNN
+F 1 "GND" H 950 1930 30  0001 C CNN
+	1    950  2000
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 5051ADB7
+P 1000 1800
+F 0 "#PWR04" H 1000 1890 20  0001 C CNN
+F 1 "+5V" H 1000 1890 30  0000 C CNN
+	1    1000 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5051AD8C
+P 1950 2400
+F 0 "R?" V 2030 2400 50  0000 C CNN
+F 1 "R" V 1950 2400 50  0000 C CNN
+	1    1950 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L BC237 Q?
+U 1 1 5051AD26
+P 2500 2400
+F 0 "Q?" H 2700 2300 50  0000 C CNN
+F 1 "BC237" H 2750 2550 50  0000 C CNN
+F 2 "TO92-EBC" H 2690 2400 30  0001 C CNN
+	1    2500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5051AC01
+P 1600 1800
+F 0 "SW?" H 1750 1910 50  0000 C CNN
+F 1 "SW_PUSH" H 1600 1720 50  0000 C CNN
+	1    1600 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5051A946
+P 2600 1300
+F 0 "D?" H 2600 1400 50  0000 C CNN
+F 1 "LED" H 2600 1200 50  0000 C CNN
+	1    2600 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5051A92A
+P 1600 2700
+F 0 "C?" H 1650 2800 50  0000 L CNN
+F 1 "CP1" H 1650 2600 50  0000 L CNN
+	1    1600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5051A90B
+P 2600 1850
+F 0 "R?" V 2680 1850 50  0000 C CNN
+F 1 "R" V 2600 1850 50  0000 C CNN
+	1    2600 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
