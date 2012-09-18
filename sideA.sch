@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 16 Sep 2012 06:59:06 AM PDT
+EESchema Schematic File Version 2  date Tue 18 Sep 2012 12:09:37 PM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SMT4dummies - sideA"
-Date "16 sep 2012"
+Date "18 sep 2012"
 Rev ""
 Comp "d-Squared Robotics"
 Comment1 "GPLv3"
@@ -44,147 +44,147 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3550 2100 3650 2100
 Wire Bus Line
-	6050 800  3300 800 
+	800  3300 800  800 
 Wire Bus Line
-	6050 800  6050 3900
+	800  3300 3000 3300
 Wire Bus Line
-	3300 800  3300 3900
-Wire Bus Line
-	3300 3900 6050 3900
-Wire Bus Line
-	3000 800  3000 3300
-Connection ~ 4150 1050
-Wire Wire Line
-	3650 1050 5650 1050
-Wire Wire Line
-	3500 2300 3650 2300
-Wire Wire Line
-	3650 1050 3650 2100
-Wire Wire Line
-	4600 2500 4150 2500
-Wire Wire Line
-	1150 3050 2650 3050
-Wire Wire Line
-	4150 1050 4150 1150
-Connection ~ 4500 3650
-Wire Wire Line
-	4500 3550 4500 3650
-Wire Wire Line
-	5650 3000 5650 3650
-Wire Wire Line
-	3650 2300 3650 3650
-Connection ~ 5250 2800
-Wire Wire Line
-	5250 2950 5250 2500
-Connection ~ 5650 2300
-Wire Wire Line
-	5650 2150 5650 2600
-Wire Wire Line
-	5100 2300 5650 2300
-Wire Wire Line
-	4150 1550 4150 1650
-Wire Wire Line
-	4150 2150 4150 2600
-Wire Wire Line
-	1000 2050 1150 2050
-Wire Wire Line
-	1150 2050 1150 3050
-Wire Wire Line
-	2650 3050 2650 2650
-Wire Wire Line
-	2650 2250 2650 2150
-Connection ~ 1650 2450
-Wire Wire Line
-	1750 2450 1650 2450
-Connection ~ 1650 1050
-Wire Wire Line
-	1650 1550 1650 1050
-Wire Wire Line
-	2650 1150 2650 1050
-Wire Wire Line
-	1150 1850 1150 1050
-Wire Wire Line
-	1150 1850 1050 1850
-Wire Wire Line
-	1650 2150 1650 2550
-Wire Wire Line
-	2250 2450 2350 2450
-Wire Wire Line
-	2650 1650 2650 1550
-Wire Wire Line
-	1650 2950 1650 3050
-Connection ~ 1650 3050
-Connection ~ 4150 2500
-Wire Wire Line
-	5350 2800 5250 2800
-Wire Wire Line
-	5250 2500 5100 2500
-Wire Wire Line
-	5650 1550 5650 1650
-Wire Wire Line
-	4600 2300 3750 2300
-Wire Wire Line
-	3750 2300 3750 2800
-Wire Wire Line
-	3750 2800 3850 2800
-Wire Wire Line
-	4500 2950 4500 2300
-Connection ~ 4500 2300
-Wire Wire Line
-	3650 3650 5650 3650
-Wire Wire Line
-	5250 3550 5250 3650
-Connection ~ 5250 3650
-Wire Wire Line
-	4150 3650 4150 3000
-Connection ~ 4150 3650
-Wire Wire Line
-	5650 1050 5650 1150
+	800  800  3000 800 
 Wire Wire Line
 	1150 1050 2650 1050
 Wire Wire Line
-	3650 2100 3550 2100
+	5650 1150 5650 1050
+Connection ~ 4150 3650
+Wire Wire Line
+	4150 3650 4150 3000
+Connection ~ 5250 3650
+Wire Wire Line
+	5250 3550 5250 3650
+Wire Wire Line
+	3650 3650 5650 3650
+Connection ~ 4500 2300
+Wire Wire Line
+	4500 2950 4500 2300
+Wire Wire Line
+	3850 2800 3750 2800
+Wire Wire Line
+	3750 2800 3750 2300
+Wire Wire Line
+	3750 2300 4600 2300
+Wire Wire Line
+	5650 1550 5650 1650
+Wire Wire Line
+	5100 2500 5250 2500
+Wire Wire Line
+	5350 2800 5250 2800
+Connection ~ 4150 2500
+Connection ~ 1650 3050
+Wire Wire Line
+	1650 2950 1650 3050
+Wire Wire Line
+	2650 1650 2650 1550
+Wire Wire Line
+	2250 2450 2350 2450
+Wire Wire Line
+	1650 2150 1650 2550
+Wire Wire Line
+	1050 1850 1150 1850
+Wire Wire Line
+	1150 1850 1150 1050
+Wire Wire Line
+	2650 1050 2650 1150
+Wire Wire Line
+	1650 1550 1650 1050
+Connection ~ 1650 1050
+Wire Wire Line
+	1750 2450 1650 2450
+Connection ~ 1650 2450
+Wire Wire Line
+	2650 2250 2650 2150
+Wire Wire Line
+	2650 2650 2650 3050
+Wire Wire Line
+	1150 2050 1150 3050
+Wire Wire Line
+	1150 2050 1000 2050
+Wire Wire Line
+	4150 2150 4150 2600
+Wire Wire Line
+	4150 1550 4150 1650
+Wire Wire Line
+	5100 2300 5650 2300
+Wire Wire Line
+	5650 2150 5650 2600
+Connection ~ 5650 2300
+Wire Wire Line
+	5250 2500 5250 2950
+Connection ~ 5250 2800
+Wire Wire Line
+	3650 3650 3650 2300
+Wire Wire Line
+	5650 3650 5650 3000
+Wire Wire Line
+	4500 3550 4500 3650
+Connection ~ 4500 3650
+Wire Wire Line
+	4150 1050 4150 1150
+Wire Wire Line
+	1150 3050 2650 3050
+Wire Wire Line
+	4600 2500 4150 2500
+Wire Wire Line
+	3650 2100 3650 1050
+Wire Wire Line
+	3650 1050 5650 1050
+Connection ~ 4150 1050
 Wire Bus Line
-	3000 800  800  800 
+	3000 800  3000 3300
 Wire Bus Line
-	3000 3300 800  3300
+	3300 3900 6050 3900
 Wire Bus Line
-	800  3300 800  800 
+	3300 3900 3300 800 
+Wire Bus Line
+	6050 3900 6050 800 
+Wire Bus Line
+	6050 800  3300 800 
+Wire Wire Line
+	3650 2300 3500 2300
 Text Notes 5600 3850 0    60   ~ 0
 Memory\n
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW2
 U 1 1 5055BB35
 P 4500 3250
-F 0 "SW?" H 4650 3360 50  0000 C CNN
+F 0 "SW2" H 4650 3360 50  0000 C CNN
 F 1 "SW_PUSH" H 4500 3170 50  0000 C CNN
 	1    4500 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW3
 U 1 1 5055BB28
 P 5250 3250
-F 0 "SW?" H 5400 3360 50  0000 C CNN
+F 0 "SW3" H 5400 3360 50  0000 C CNN
 F 1 "SW_PUSH" H 5250 3170 50  0000 C CNN
 	1    5250 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R4
 U 1 1 5055B3BC
 P 4850 2300
-F 0 "R?" V 4930 2300 50  0000 C CNN
+F 0 "R4" V 4930 2300 50  0000 C CNN
 F 1 "R" V 4850 2300 50  0000 C CNN
 	1    4850 2300
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R5
 U 1 1 5055B3AE
 P 4850 2500
-F 0 "R?" V 4930 2500 50  0000 C CNN
+F 0 "R5" V 4930 2500 50  0000 C CNN
 F 1 "R" V 4850 2500 50  0000 C CNN
 	1    4850 2500
 	0    1    1    0   
@@ -208,57 +208,57 @@ F 1 "+5V" H 3550 2190 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BC237 Q?
+L BC237 Q3
 U 1 1 5055B0D0
 P 5550 2800
-F 0 "Q?" H 5750 2700 50  0000 C CNN
+F 0 "Q3" H 5750 2700 50  0000 C CNN
 F 1 "BC237" H 5800 2950 50  0000 C CNN
 F 2 "TO92-EBC" H 5740 2800 30  0001 C CNN
 	1    5550 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L BC237 Q?
+L BC237 Q2
 U 1 1 5055B0B6
 P 4050 2800
-F 0 "Q?" H 4250 2700 50  0000 C CNN
+F 0 "Q2" H 4250 2700 50  0000 C CNN
 F 1 "BC237" H 4300 2950 50  0000 C CNN
 F 2 "TO92-EBC" H 4240 2800 30  0001 C CNN
 	1    4050 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R6
 U 1 1 5055AFCE
 P 5650 1900
-F 0 "R?" V 5730 1900 50  0000 C CNN
+F 0 "R6" V 5730 1900 50  0000 C CNN
 F 1 "R" V 5650 1900 50  0000 C CNN
 	1    5650 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R3
 U 1 1 5055AFCA
 P 4150 1900
-F 0 "R?" V 4230 1900 50  0000 C CNN
+F 0 "R3" V 4230 1900 50  0000 C CNN
 F 1 "R" V 4150 1900 50  0000 C CNN
 	1    4150 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D?
+L LED D3
 U 1 1 5055AFBC
 P 5650 1350
-F 0 "D?" H 5650 1450 50  0000 C CNN
+F 0 "D3" H 5650 1450 50  0000 C CNN
 F 1 "LED" H 5650 1250 50  0000 C CNN
 	1    5650 1350
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D?
+L LED D2
 U 1 1 5051E656
 P 4150 1350
-F 0 "D?" H 4150 1450 50  0000 C CNN
+F 0 "D2" H 4150 1450 50  0000 C CNN
 F 1 "LED" H 4150 1250 50  0000 C CNN
 	1    4150 1350
 	0    1    1    0   
@@ -284,56 +284,56 @@ F 1 "+5V" H 1050 1940 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R1
 U 1 1 5051AD8C
 P 2000 2450
-F 0 "R?" V 2080 2450 50  0000 C CNN
+F 0 "R1" V 2080 2450 50  0000 C CNN
 F 1 "R" V 2000 2450 50  0000 C CNN
 	1    2000 2450
 	0    1    1    0   
 $EndComp
 $Comp
-L BC237 Q?
+L BC237 Q1
 U 1 1 5051AD26
 P 2550 2450
-F 0 "Q?" H 2750 2350 50  0000 C CNN
+F 0 "Q1" H 2750 2350 50  0000 C CNN
 F 1 "BC237" H 2800 2600 50  0000 C CNN
 F 2 "TO92-EBC" H 2740 2450 30  0001 C CNN
 	1    2550 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW1
 U 1 1 5051AC01
 P 1650 1850
-F 0 "SW?" H 1800 1960 50  0000 C CNN
+F 0 "SW1" H 1800 1960 50  0000 C CNN
 F 1 "SW_PUSH" H 1650 1770 50  0000 C CNN
 	1    1650 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D?
+L LED D1
 U 1 1 5051A946
 P 2650 1350
-F 0 "D?" H 2650 1450 50  0000 C CNN
+F 0 "D1" H 2650 1450 50  0000 C CNN
 F 1 "LED" H 2650 1250 50  0000 C CNN
 	1    2650 1350
 	0    1    1    0   
 $EndComp
 $Comp
-L CP1 C?
+L CP1 C1
 U 1 1 5051A92A
 P 1650 2750
-F 0 "C?" H 1700 2850 50  0000 L CNN
+F 0 "C1" H 1700 2850 50  0000 L CNN
 F 1 "CP1" H 1700 2650 50  0000 L CNN
 	1    1650 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R2
 U 1 1 5051A90B
 P 2650 1900
-F 0 "R?" V 2730 1900 50  0000 C CNN
+F 0 "R2" V 2730 1900 50  0000 C CNN
 F 1 "R" V 2650 1900 50  0000 C CNN
 	1    2650 1900
 	1    0    0    -1  
