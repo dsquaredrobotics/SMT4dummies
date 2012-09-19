@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 19 Sep 2012 04:55:25 PM CEST
+EESchema Schematic File Version 2  date Wed 19 Sep 2012 18:42:47 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	3500 5500 3500 5400
+Wire Wire Line
+	3550 1950 3550 1900
+Wire Wire Line
 	6850 2950 6850 2900
 Wire Notes Line
 	1450 6650 1450 3500
@@ -68,7 +72,7 @@ Connection ~ 1350 2150
 Wire Wire Line
 	1350 2250 1350 2150
 Wire Wire Line
-	1450 1850 1250 1850
+	1250 1850 1450 1850
 Wire Wire Line
 	2550 5100 2550 5050
 Wire Notes Line
@@ -99,7 +103,7 @@ Wire Wire Line
 	2400 4400 2550 4400
 Connection ~ 2550 4800
 Wire Wire Line
-	2800 4800 1750 4800
+	1750 4800 2800 4800
 Wire Notes Line
 	10850 4150 6250 4150
 Wire Notes Line
@@ -191,7 +195,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 1550 2850 1600
 Wire Wire Line
-	2550 1750 2550 1600
+	2550 1600 2550 1750
 Wire Wire Line
 	3100 1650 3100 1700
 Wire Wire Line
@@ -227,7 +231,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1650 7550 1550
 Wire Wire Line
-	7550 2750 7550 2850
+	7550 2850 7550 2750
 Wire Wire Line
 	7550 3950 7550 4050
 Wire Wire Line
@@ -257,7 +261,7 @@ Wire Wire Line
 Connection ~ 4900 5000
 Connection ~ 4900 5000
 Wire Wire Line
-	4900 5650 4900 5850
+	4900 5850 4900 5650
 Connection ~ 4900 5750
 Wire Wire Line
 	1350 1100 1350 1200
@@ -267,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 5500 2150 5600
 Wire Wire Line
-	2150 4800 2150 5100
+	2150 5100 2150 4800
 Connection ~ 2150 5000
 Wire Wire Line
 	1350 1750 1350 1850
@@ -281,11 +285,51 @@ Wire Notes Line
 Wire Wire Line
 	5600 4750 5600 4800
 Wire Wire Line
-	5300 5000 4200 5000
+	4200 5000 5300 5000
 Wire Notes Line
 	6050 3500 6050 6650
 Wire Wire Line
 	6850 3900 6850 3850
+Wire Wire Line
+	3550 1200 3550 1100
+Wire Wire Line
+	3500 4500 3500 4600
+$Comp
+L GND #PWR?
+U 1 1 5059F5FF
+P 3500 5500
+F 0 "#PWR?" H 3500 5500 30  0001 C CNN
+F 1 "GND" H 3500 5430 30  0001 C CNN
+	1    3500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5059F5F6
+P 3500 4500
+F 0 "#PWR?" H 3500 4590 20  0001 C CNN
+F 1 "+5V" H 3500 4590 30  0000 C CNN
+	1    3500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5059F5E5
+P 3550 1950
+F 0 "#PWR?" H 3550 1950 30  0001 C CNN
+F 1 "GND" H 3550 1880 30  0001 C CNN
+	1    3550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5059F5D2
+P 3550 1100
+F 0 "#PWR?" H 3550 1190 20  0001 C CNN
+F 1 "+5V" H 3550 1190 30  0000 C CNN
+	1    3550 1100
+	1    0    0    -1  
+$EndComp
 $Comp
 L +5V #PWR01
 U 1 1 5059D843
