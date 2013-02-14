@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 14 Feb 2013 18:40:36 CET
+
+BeginCmp
+TimeStamp = /5051A92A;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A946;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051E656;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055AFBC;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5058EE13;
+Reference = J1;
+ValeurCmp = USB_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5058EE4E;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051AD26;
+Reference = Q1;
+ValeurCmp = BC237;
+IdModule  = SOT23-3_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055B0B6;
+Reference = Q2;
+ValeurCmp = BC237;
+IdModule  = SOT23-3_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055B0D0;
+Reference = Q3;
+ValeurCmp = BC237;
+IdModule  = SOT23-3_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051AD8C;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = 1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A90B;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = 1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055AFCA;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = 1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055B3BC;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = 1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055B3AE;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = 1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055AFCE;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = 1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051AC01;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055BB35;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5055BB28;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+EndListe

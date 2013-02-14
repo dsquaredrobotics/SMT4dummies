@@ -1,0 +1,160 @@
+# EESchema Netlist Version 1.1 created  Thu 14 Feb 2013 18:40:36 CET
+(
+ ( /5051A92A $noname$ C1 CP1
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /5051A946 LED-1206 D1 LED
+  ( 1 +5V )
+  ( 2 N-000008 )
+ )
+ ( /5051E656 LED-1206 D2 LED
+  ( 1 +5V )
+  ( 2 N-000013 )
+ )
+ ( /5055AFBC LED-1206 D3 LED
+  ( 1 +5V )
+  ( 2 N-000012 )
+ )
+ ( /5058EE13 $noname$ J1 USB_2
+  ( 1 +5V )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
+ )
+ ( /5058EE4E $noname$ P1 CONN_2
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /5051AD26 SOT23-3_Opendous Q1 BC237
+  ( B N-000007 )
+  ( C N-000009 )
+  ( E GND )
+ )
+ ( /5055B0B6 SOT23-3_Opendous Q2 BC237
+  ( B N-000011 )
+  ( C N-000014 )
+  ( E GND )
+ )
+ ( /5055B0D0 SOT23-3_Opendous Q3 BC237
+  ( B N-000010 )
+  ( C N-000005 )
+  ( E GND )
+ )
+ ( /5051AD8C 1206_Opendous R1 R
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+ )
+ ( /5051A90B 1206_Opendous R2 R
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+ )
+ ( /5055AFCA 1206_Opendous R3 R
+  ( 1 N-000013 )
+  ( 2 N-000014 )
+ )
+ ( /5055B3BC 1206_Opendous R4 R
+  ( 1 N-000005 )
+  ( 2 N-000011 )
+ )
+ ( /5055B3AE 1206_Opendous R5 R
+  ( 1 N-000010 )
+  ( 2 N-000014 )
+ )
+ ( /5055AFCE 1206_Opendous R6 R
+  ( 1 N-000012 )
+  ( 2 N-000005 )
+ )
+ ( /5051AC01 $noname$ SW1 SW_PUSH
+  ( 1 N-000006 )
+  ( 2 +5V )
+ )
+ ( /5055BB35 $noname$ SW2 SW_PUSH
+  ( 1 GND )
+  ( 2 N-000011 )
+ )
+ ( /5055BB28 $noname$ SW3 SW_PUSH
+  ( 1 GND )
+  ( 2 N-000010 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component Q1
+ TO92-EBC
+$endlist
+$component Q2
+ TO92-EBC
+$endlist
+$component Q3
+ TO92-EBC
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
