@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 14 Feb 2013 18:40:36 CET
+# EESchema Netlist Version 1.1 created  Thu 14 Feb 2013 18:50:34 CET
 (
  ( /5051A92A $noname$ C1 CP1
   ( 1 N-000006 )
@@ -16,13 +16,13 @@
   ( 1 +5V )
   ( 2 N-000012 )
  )
- ( /5058EE13 $noname$ J1 USB_2
+ ( /5058EE13 CONN_USB2_MiniB_SMT J1 USB_2
   ( 1 +5V )
   ( 2 ? )
   ( 3 ? )
   ( 4 GND )
  )
- ( /5058EE4E $noname$ P1 CONN_2
+ ( /5058EE4E SIL-2 P1 CONN_2
   ( 1 +5V )
   ( 2 GND )
  )
@@ -65,15 +65,15 @@
   ( 1 N-000012 )
   ( 2 N-000005 )
  )
- ( /5051AC01 $noname$ SW1 SW_PUSH
+ ( /5051AC01 Switch_SMT_TH_EVQ_TL59 SW1 SW_PUSH
   ( 1 N-000006 )
   ( 2 +5V )
  )
- ( /5055BB35 $noname$ SW2 SW_PUSH
+ ( /5055BB35 Switch_SMT_TH_EVQ_TL59 SW2 SW_PUSH
   ( 1 GND )
   ( 2 N-000011 )
  )
- ( /5055BB28 $noname$ SW3 SW_PUSH
+ ( /5055BB28 Switch_SMT_TH_EVQ_TL59 SW3 SW_PUSH
   ( 1 GND )
   ( 2 N-000010 )
  )

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 14 Feb 2013 18:40:36 CET
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 14 Feb 2013 18:50:34 CET
 
 BeginCmp
 TimeStamp = /5051A92A;
@@ -32,14 +32,14 @@ BeginCmp
 TimeStamp = /5058EE13;
 Reference = J1;
 ValeurCmp = USB_2;
-IdModule  = ;
+IdModule  = CONN_USB2_MiniB_SMT;
 EndCmp
 
 BeginCmp
 TimeStamp = /5058EE4E;
 Reference = P1;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
@@ -109,21 +109,21 @@ BeginCmp
 TimeStamp = /5051AC01;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = Switch_SMT_TH_EVQ_TL59;
 EndCmp
 
 BeginCmp
 TimeStamp = /5055BB35;
 Reference = SW2;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = Switch_SMT_TH_EVQ_TL59;
 EndCmp
 
 BeginCmp
 TimeStamp = /5055BB28;
 Reference = SW3;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = Switch_SMT_TH_EVQ_TL59;
 EndCmp
 
 EndListe
