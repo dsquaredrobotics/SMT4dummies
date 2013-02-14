@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 13 Feb 2013 20:09:25 CET
+EESchema Schematic File Version 2  date Thu 14 Feb 2013 10:34:18 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SMT4dummies - sideB"
-Date "13 feb 2013"
+Date "14 feb 2013"
 Rev "1"
 Comp "d-Squared Robotics"
 Comment1 "GPLv3"
@@ -250,7 +250,6 @@ Wire Wire Line
 	1900 4600 2050 4600
 Wire Wire Line
 	4750 5400 4350 5400
-Connection ~ 5050 5950
 Wire Wire Line
 	1350 1100 1350 1200
 Connection ~ 2400 5000
