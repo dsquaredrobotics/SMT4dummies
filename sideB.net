@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 14 Feb 2013 10:34:14 CET
+# EESchema Netlist Version 1.1 created  Tue 19 Feb 2013 15:54:39 CET
 (
  ( /50521A7A 1206_Opendous C2 0.1uF
   ( 1 /THR )
@@ -59,7 +59,7 @@
   ( 8 GND )
   ( 16 +5V )
  )
- ( /505896B4 SO14N IC2 LM2902N
+ ( /505896B4 SO14E IC2 LM2902N
   ( 1 N-000026 )
   ( 2 N-000025 )
   ( 3 /ANLG_INPUT )

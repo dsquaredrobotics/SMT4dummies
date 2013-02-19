@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 14 Feb 2013 10:34:14 CET
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 19 Feb 2013 15:54:39 CET
 
 BeginCmp
 TimeStamp = /50521A7A;
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /505896B4;
 Reference = IC2;
 ValeurCmp = LM2902N;
-IdModule  = SO14N;
+IdModule  = SO14E;
 EndCmp
 
 BeginCmp
