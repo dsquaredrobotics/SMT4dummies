@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 18 Sep 2012 03:02:05 PM PDT
+EESchema Schematic File Version 2  date Mon 25 Feb 2013 02:33:02 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:sideA-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "SMT4dummies - sideA"
-Date "18 sep 2012"
+Date "25 feb 2013"
 Rev ""
 Comp "d-Squared Robotics"
 Comment1 "GPLv3"
@@ -44,6 +43,33 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L NPN Q?
+U 1 1 512B64B2
+P 7250 3100
+F 0 "Q?" H 7250 2950 50  0000 R CNN
+F 1 "NPN" H 7250 3250 50  0000 R CNN
+	1    7250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q?
+U 1 1 512B64AD
+P 5750 3100
+F 0 "Q?" H 5750 2950 50  0000 R CNN
+F 1 "NPN" H 5750 3250 50  0000 R CNN
+	1    5750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q?
+U 1 1 512B64A4
+P 4250 2750
+F 0 "Q?" H 4250 2600 50  0000 R CNN
+F 1 "NPN" H 4250 2900 50  0000 R CNN
+	1    4250 2750
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1100 2000 1100 1100
 Wire Bus Line
@@ -322,26 +348,6 @@ F 1 "+5V" H 5250 2490 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BC237 Q3
-U 1 1 5055B0D0
-P 7250 3100
-F 0 "Q3" H 7450 3000 50  0000 C CNN
-F 1 "BC237" H 7500 3250 50  0000 C CNN
-F 2 "TO92-EBC" H 7440 3100 30  0001 C CNN
-	1    7250 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L BC237 Q2
-U 1 1 5055B0B6
-P 5750 3100
-F 0 "Q2" H 5950 3000 50  0000 C CNN
-F 1 "BC237" H 6000 3250 50  0000 C CNN
-F 2 "TO92-EBC" H 5940 3100 30  0001 C CNN
-	1    5750 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R6
 U 1 1 5055AFCE
 P 7350 2200
@@ -405,16 +411,6 @@ F 0 "R1" V 3780 2750 50  0000 C CNN
 F 1 "R" V 3700 2750 50  0000 C CNN
 	1    3700 2750
 	0    1    1    0   
-$EndComp
-$Comp
-L BC237 Q1
-U 1 1 5051AD26
-P 4250 2750
-F 0 "Q1" H 4450 2650 50  0000 C CNN
-F 1 "BC237" H 4500 2900 50  0000 C CNN
-F 2 "TO92-EBC" H 4440 2750 30  0001 C CNN
-	1    4250 2750
-	1    0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW1
