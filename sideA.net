@@ -1,116 +1,90 @@
-# EESchema Netlist Version 1.1 created  Mon 25 Feb 2013 03:20:21 PM CET
+# EESchema Netlist Version 1.1 created  Mon 25 Feb 2013 03:34:05 PM CET
 (
- ( /5058EE4E $noname  P1 CONN_2 {Lib=CONN_2}
-  (    1 +5V )
-  (    2 GND )
+ ( /5051A92A rcl-SANYO-OSCON_SMD_C6 C1 CP1
+  ( 1 N-000006 )
+  ( 2 GND )
  )
- ( /5058EE13 $noname  J1 USB_2 {Lib=USB_2}
-  (    1 +5V )
-  (    2 ? )
-  (    3 ? )
-  (    4 GND )
+ ( /5051A946 LED-1206 D1 LED
+  ( 1 +5V )
+  ( 2 N-000008 )
  )
- ( /5055BB35 $noname  SW2 SW_PUSH {Lib=SW_PUSH}
-  (    1 GND )
-  (    2 N-000011 )
+ ( /5051E656 LED-1206 D2 LED
+  ( 1 +5V )
+  ( 2 N-000013 )
  )
- ( /5055BB28 $noname  SW3 SW_PUSH {Lib=SW_PUSH}
-  (    1 GND )
-  (    2 N-000010 )
+ ( /5055AFBC LED-1206 D3 LED
+  ( 1 +5V )
+  ( 2 N-000012 )
  )
- ( /5055B3BC $noname  R4 R {Lib=R}
-  (    1 N-000005 )
-  (    2 N-000011 )
+ ( /5058EE13 CONN_USB2_MiniB_SMT J1 USB_2
+  ( 1 +5V )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
  )
- ( /5055B3AE $noname  R5 R {Lib=R}
-  (    1 N-000010 )
-  (    2 N-000014 )
+ ( /5058EE4E SIL-2 P1 CONN_2
+  ( 1 +5V )
+  ( 2 GND )
  )
- ( /5055B0D0 TO92-EBC  Q3 BC237 {Lib=BC237}
-  (    B N-000010 )
-  (    C N-000005 )
-  (    E GND )
+ ( /5051AD26 SOT23-3_Opendous Q1 BC237
+  ( B N-000007 )
+  ( C N-000009 )
+  ( E GND )
  )
- ( /5055B0B6 TO92-EBC  Q2 BC237 {Lib=BC237}
-  (    B N-000011 )
-  (    C N-000014 )
-  (    E GND )
+ ( /5055B0B6 SOT23-3_Opendous Q2 BC237
+  ( B N-000011 )
+  ( C N-000014 )
+  ( E GND )
  )
- ( /5055AFCE $noname  R6 R {Lib=R}
-  (    1 N-000012 )
-  (    2 N-000005 )
+ ( /5055B0D0 SOT23-3_Opendous Q3 BC237
+  ( B N-000010 )
+  ( C N-000005 )
+  ( E GND )
  )
- ( /5055AFCA $noname  R3 R {Lib=R}
-  (    1 N-000013 )
-  (    2 N-000014 )
+ ( /5051AD8C 1206_Opendous R1 R
+  ( 1 N-000007 )
+  ( 2 N-000006 )
  )
- ( /5055AFBC $noname  D3 LED {Lib=LED}
-  (    1 +5V )
-  (    2 N-000012 )
+ ( /5051A90B 1206_Opendous R2 R
+  ( 1 N-000008 )
+  ( 2 N-000009 )
  )
- ( /5051E656 $noname  D2 LED {Lib=LED}
-  (    1 +5V )
-  (    2 N-000013 )
+ ( /5055AFCA 1206_Opendous R3 R
+  ( 1 N-000013 )
+  ( 2 N-000014 )
  )
- ( /5051AD8C $noname  R1 R {Lib=R}
-  (    1 N-000007 )
-  (    2 N-000006 )
+ ( /5055B3BC 1206_Opendous R4 R
+  ( 1 N-000005 )
+  ( 2 N-000011 )
  )
- ( /5051AD26 TO92-EBC  Q1 BC237 {Lib=BC237}
-  (    B N-000007 )
-  (    C N-000009 )
-  (    E GND )
+ ( /5055B3AE 1206_Opendous R5 R
+  ( 1 N-000010 )
+  ( 2 N-000014 )
  )
- ( /5051AC01 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
-  (    1 N-000006 )
-  (    2 +5V )
+ ( /5055AFCE 1206_Opendous R6 R
+  ( 1 N-000012 )
+  ( 2 N-000005 )
  )
- ( /5051A946 $noname  D1 LED {Lib=LED}
-  (    1 +5V )
-  (    2 N-000008 )
+ ( /5051AC01 Switch_SMT_TH_EVQ_TL59 SW1 SW_PUSH
+  ( 1 N-000006 )
+  ( 2 +5V )
  )
- ( /5051A92A $noname  C1 CP1 {Lib=CP1}
-  (    1 N-000006 )
-  (    2 GND )
+ ( /5055BB35 Switch_SMT_TH_EVQ_TL59 SW2 SW_PUSH
+  ( 1 GND )
+  ( 2 N-000011 )
  )
- ( /5051A90B $noname  R2 R {Lib=R}
-  (    1 N-000008 )
-  (    2 N-000009 )
+ ( /5055BB28 Switch_SMT_TH_EVQ_TL59 SW3 SW_PUSH
+  ( 1 GND )
+  ( 2 N-000010 )
  )
 )
 *
 { Allowed footprints by component:
-$component R4
- R?
- SM0603
- SM0805
- R?-*
+$component C1
+ CP*
+ SM*
 $endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component Q3
- TO92-EBC
-$endlist
-$component Q2
- TO92-EBC
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component D3
+$component D1
  LED-3MM
  LED-5MM
  LED-10MM
@@ -128,16 +102,7 @@ $component D2
  LED-1206
  LEDV
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component Q1
- TO92-EBC
-$endlist
-$component D1
+$component D3
  LED-3MM
  LED-5MM
  LED-10MM
@@ -146,9 +111,20 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component C1
- CP*
- SM*
+$component Q1
+ TO92-EBC
+$endlist
+$component Q2
+ TO92-EBC
+$endlist
+$component Q3
+ TO92-EBC
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
 $component R2
  R?
@@ -156,59 +132,29 @@ $component R2
  SM0805
  R?-*
 $endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 2 "GND" "GND"
- Q1 E
- C1 2
- Q2 E
- Q3 E
- J1 4
- SW2 1
- SW3 1
- P1 2
-Net 3 "+5V" "+5V"
- SW1 2
- D3 1
- D2 1
- J1 1
- P1 1
- D1 1
-Net 5 "" ""
- Q3 C
- R4 1
- R6 2
-Net 6 "" ""
- SW1 1
- R1 2
- C1 1
-Net 7 "" ""
- Q1 B
- R1 1
-Net 8 "" ""
- R2 1
- D1 2
-Net 9 "" ""
- R2 2
- Q1 C
-Net 10 "" ""
- Q3 B
- SW3 2
- R5 1
-Net 11 "" ""
- SW2 2
- Q2 B
- R4 2
-Net 12 "" ""
- R6 1
- D3 2
-Net 13 "" ""
- D2 2
- R3 1
-Net 14 "" ""
- R3 2
- R5 2
- Q2 C
-}
-#End
