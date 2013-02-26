@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 14 Feb 2013 18:50:34 CET
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 26 Feb 2013 22:41:03 CET
 
 BeginCmp
 TimeStamp = /5051A92A;
@@ -11,21 +11,21 @@ BeginCmp
 TimeStamp = /5051A946;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051E656;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5055AFBC;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
@@ -43,23 +43,23 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5051AD26;
+TimeStamp = /512D29D2;
 Reference = Q1;
-ValeurCmp = BC237;
+ValeurCmp = NPN;
 IdModule  = SOT23-3_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /5055B0B6;
+TimeStamp = /512D29D5;
 Reference = Q2;
-ValeurCmp = BC237;
+ValeurCmp = NPN;
 IdModule  = SOT23-3_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /5055B0D0;
+TimeStamp = /512D29D8;
 Reference = Q3;
-ValeurCmp = BC237;
+ValeurCmp = NPN;
 IdModule  = SOT23-3_Opendous;
 EndCmp
 

@@ -1,5 +1,5 @@
-update=Tue 26 Feb 2013 22:31:52 CET
-last_client=eeschema
+update=Tue 26 Feb 2013 22:40:48 CET
+last_client=cvpcb
 [pcbnew]
 [pcbnew/libraries]
 LibName1=sockets
@@ -14,12 +14,7 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=opendous
 LibName12=rcl
-LibDir=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules;../../../Dropbox/d-squared robotics/SMT4dummies/KiCad Eagle Libraries
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibDir=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules
 [eeschema]
 version=1
 LibDir=
@@ -83,3 +78,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=npn
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 19 Feb 2013 15:54:39 CET
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 26 Feb 2013 22:41:53 CET
 
 BeginCmp
 TimeStamp = /50521A7A;
@@ -11,63 +11,63 @@ BeginCmp
 TimeStamp = /5050AB99;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5050AC1D;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5050AC4D;
 Reference = D6;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5050AC48;
 Reference = D7;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A6DD;
 Reference = D8;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7C8;
 Reference = D9;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7F5;
 Reference = D10;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7F0;
 Reference = D11;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /505317BD;
 Reference = D12;
 ValeurCmp = LED;
-IdModule  = LED-1206;
+IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
@@ -120,7 +120,7 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5053179A;
+TimeStamp = /512D2A5C;
 Reference = Q4;
 ValeurCmp = NPN;
 IdModule  = SOT23-3_Opendous;
