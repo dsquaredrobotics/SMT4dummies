@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Feb 2013 22:33:32 CET
+EESchema Schematic File Version 2  date Tue 26 Feb 2013 22:56:48 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -354,7 +354,7 @@ L R R6
 U 1 1 5055AFCE
 P 7350 2200
 F 0 "R6" V 7430 2200 50  0000 C CNN
-F 1 "R" V 7350 2200 50  0000 C CNN
+F 1 "150R" V 7350 2200 50  0000 C CNN
 	1    7350 2200
 	1    0    0    -1  
 $EndComp
@@ -363,7 +363,7 @@ L R R3
 U 1 1 5055AFCA
 P 5850 2200
 F 0 "R3" V 5930 2200 50  0000 C CNN
-F 1 "R" V 5850 2200 50  0000 C CNN
+F 1 "150R" V 5850 2200 50  0000 C CNN
 	1    5850 2200
 	1    0    0    -1  
 $EndComp
@@ -446,7 +446,7 @@ L R R2
 U 1 1 5051A90B
 P 4350 2200
 F 0 "R2" V 4430 2200 50  0000 C CNN
-F 1 "R" V 4350 2200 50  0000 C CNN
+F 1 "150R" V 4350 2200 50  0000 C CNN
 	1    4350 2200
 	1    0    0    -1  
 $EndComp
