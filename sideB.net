@@ -1,270 +1,199 @@
-# EESchema Netlist Version 1.1 created  Tue 19 Feb 2013 15:54:39 CET
+# EESchema Netlist Version 1.1 created  Tue 26 Feb 2013 22:34:35 CET
 (
- ( /50521A7A 1206_Opendous C2 0.1uF
-  ( 1 /THR )
-  ( 2 GND )
+ ( /512D2A5C $noname  Q4 NPN {Lib=NPN}
+  (    1 GND )
+  (    2 N-000032 )
+  (    3 N-000033 )
  )
- ( /5050AB99 LED-1206 D4 LED
-  ( 1 N-000018 )
-  ( 2 N-000019 )
+ ( /511BD374 $noname  R25 1K {Lib=R}
+  (    1 N-000032 )
+  (    2 N-000008 )
  )
- ( /5050AC1D LED-1206 D5 LED
-  ( 1 N-000013 )
-  ( 2 N-000012 )
+ ( /505896B4 $noname  IC2 LM2902N {Lib=LM2902N}
+  (    1 N-000027 )
+  (    2 N-000026 )
+  (    3 /ANLG_INPUT )
+  (    4 +5V )
+  (    5 /ANLG_INPUT )
+  (    6 N-000021 )
+  (    7 N-000020 )
+  (    8 N-000023 )
+  (    9 N-000022 )
+  (   10 /ANLG_INPUT )
+  (   11 GND )
+  (   12 /ANLG_INPUT )
+  (   13 N-000025 )
+  (   14 N-000024 )
  )
- ( /5050AC4D LED-1206 D6 LED
-  ( 1 N-000017 )
-  ( 2 N-000015 )
+ ( /505317BD $noname  D12 LED {Lib=LED}
+  (    1 +5V )
+  (    2 N-000030 )
  )
- ( /5050AC48 LED-1206 D7 LED
-  ( 1 N-000016 )
-  ( 2 N-000014 )
+ ( /505317AD $noname  R23 R {Lib=R}
+  (    1 N-000030 )
+  (    2 N-000033 )
  )
- ( /5051A6DD LED-1206 D8 LED
-  ( 1 N-000026 )
-  ( 2 N-000027 )
+ ( /50522419 $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 +5V )
+  (    2 GND )
  )
- ( /5051A7C8 LED-1206 D9 LED
-  ( 1 N-000020 )
-  ( 2 N-000009 )
+ ( /505223AD $noname  J1 USB_2 {Lib=USB_2}
+  (    1 +5V )
+  (    2 ? )
+  (    3 ? )
+  (    4 GND )
  )
- ( /5051A7F5 LED-1206 D10 LED
-  ( 1 N-000022 )
-  ( 2 N-000004 )
+ ( /50521A7A $noname  C2 0.1uF {Lib=C}
+  (    1 /THR )
+  (    2 GND )
  )
- ( /5051A7F0 LED-1206 D11 LED
-  ( 1 N-000023 )
-  ( 2 N-000003 )
+ ( /505218DA $noname  R24 1K {Lib=R}
+  (    1 /DIS )
+  (    2 +5V )
  )
- ( /505317BD LED-1206 D12 LED
-  ( 1 +5V )
-  ( 2 N-000029 )
+ ( /50521764 $noname  D13 1N4148 {Lib=DIODE}
+  (    1 /THR )
+  (    2 N-000011 )
  )
- ( /50521764 SOD123 D13 1N4148
-  ( 1 /THR )
-  ( 2 N-000011 )
+ ( /5052175B $noname  D14 1N4148 {Lib=DIODE}
+  (    1 N-000010 )
+  (    2 /THR )
  )
- ( /5052175B SOD123 D14 1N4148
-  ( 1 N-000010 )
-  ( 2 /THR )
+ ( /5052174F $noname  RV2 100K {Lib=POT}
+  (    1 N-000011 )
+  (    2 /DIS )
+  (    3 N-000010 )
  )
- ( /5050AB85 SOIC16_NB IC1 4520
-  ( 1 /CLK )
-  ( 2 +5V )
-  ( 3 N-000016 )
-  ( 4 N-000017 )
-  ( 5 N-000013 )
-  ( 6 N-000018 )
-  ( 7 GND )
-  ( 8 GND )
-  ( 16 +5V )
+ ( /50521740 $noname  IC3 LM555N {Lib=LM555N}
+  (    1 GND )
+  (    2 /THR )
+  (    3 N-000008 )
+  (    4 +5V )
+  (    5 GND )
+  (    6 /THR )
+  (    7 /DIS )
+  (    8 +5V )
  )
- ( /505896B4 SO14E IC2 LM2902N
-  ( 1 N-000026 )
-  ( 2 N-000025 )
-  ( 3 /ANLG_INPUT )
-  ( 4 +5V )
-  ( 5 /ANLG_INPUT )
-  ( 6 N-000021 )
-  ( 7 N-000020 )
-  ( 8 N-000022 )
-  ( 9 N-000030 )
-  ( 10 /ANLG_INPUT )
-  ( 11 GND )
-  ( 12 /ANLG_INPUT )
-  ( 13 N-000024 )
-  ( 14 N-000023 )
+ ( /5051A9D1 $noname  RV1 POT {Lib=POT}
+  (    1 +5V )
+  (    2 /ANLG_INPUT )
+  (    3 GND )
  )
- ( /50521740 SO8E_4x5mm_Opendous IC3 LM555N
-  ( 1 GND )
-  ( 2 /THR )
-  ( 3 N-000008 )
-  ( 4 +5V )
-  ( 5 GND )
-  ( 6 /THR )
-  ( 7 /DIS )
-  ( 8 +5V )
+ ( /5051A830 $noname  R14 R {Lib=R}
+  (    1 +5V )
+  (    2 N-000026 )
  )
- ( /505223AD CONN_USB2_MiniB_SMT J1 USB_2
-  ( 1 +5V )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 GND )
+ ( /5051A82E $noname  R17 R {Lib=R}
+  (    1 N-000022 )
+  (    2 N-000025 )
  )
- ( /50522419 SIL-2 P1 CONN_2
-  ( 1 +5V )
-  ( 2 GND )
+ ( /5051A82D $noname  R18 R {Lib=R}
+  (    1 N-000025 )
+  (    2 GND )
  )
- ( /5053179A SOT23-3_Opendous Q4 NPN
-  ( 1 GND )
-  ( 2 N-000034 )
-  ( 3 N-000032 )
+ ( /5051A821 $noname  R16 R {Lib=R}
+  (    1 N-000021 )
+  (    2 N-000022 )
  )
- ( /5050F4F2 1206_Opendous R8 4.7K
-  ( 1 GND )
-  ( 2 +5V )
+ ( /5051A811 $noname  R15 R {Lib=R}
+  (    1 N-000026 )
+  (    2 N-000021 )
  )
- ( /5050E67D 1206_Opendous R9 4.7K
-  ( 1 /CLK )
-  ( 2 GND )
+ ( /5051A7F5 $noname  D10 LED {Lib=LED}
+  (    1 N-000023 )
+  (    2 N-000004 )
  )
- ( /5050ABAA 1206_Opendous R10 R
-  ( 1 N-000019 )
-  ( 2 GND )
+ ( /5051A7F4 $noname  R21 R {Lib=R}
+  (    1 GND )
+  (    2 N-000004 )
  )
- ( /5050AC1C 1206_Opendous R11 R
-  ( 1 N-000012 )
-  ( 2 GND )
+ ( /5051A7F1 $noname  R22 R {Lib=R}
+  (    1 GND )
+  (    2 N-000003 )
  )
- ( /5050AC4C 1206_Opendous R12 R
-  ( 1 N-000015 )
-  ( 2 GND )
+ ( /5051A7F0 $noname  D11 LED {Lib=LED}
+  (    1 N-000024 )
+  (    2 N-000003 )
  )
- ( /5050AC49 1206_Opendous R13 R
-  ( 1 N-000014 )
-  ( 2 GND )
+ ( /5051A7C8 $noname  D9 LED {Lib=LED}
+  (    1 N-000020 )
+  (    2 N-000009 )
  )
- ( /5051A830 1206_Opendous R14 R
-  ( 1 +5V )
-  ( 2 N-000025 )
+ ( /5051A7C7 $noname  R20 R {Lib=R}
+  (    1 GND )
+  (    2 N-000009 )
  )
- ( /5051A811 1206_Opendous R15 R
-  ( 1 N-000025 )
-  ( 2 N-000021 )
+ ( /5051A727 $noname  R19 R {Lib=R}
+  (    1 GND )
+  (    2 N-000028 )
  )
- ( /5051A821 1206_Opendous R16 R
-  ( 1 N-000021 )
-  ( 2 N-000030 )
+ ( /5051A6DD $noname  D8 LED {Lib=LED}
+  (    1 N-000027 )
+  (    2 N-000028 )
  )
- ( /5051A82E 1206_Opendous R17 R
-  ( 1 N-000030 )
-  ( 2 N-000024 )
+ ( /5050F4F2 $noname  R8 4.7K {Lib=R}
+  (    1 GND )
+  (    2 +5V )
  )
- ( /5051A82D 1206_Opendous R18 R
-  ( 1 N-000024 )
-  ( 2 GND )
+ ( /5050E70F $noname  SW4 SW_PUSH {Lib=SW_PUSH}
+  (    1 +5V )
+  (    2 /CLK )
  )
- ( /5051A727 1206_Opendous R19 R
-  ( 1 GND )
-  ( 2 N-000027 )
+ ( /5050E67D $noname  R9 4.7K {Lib=R}
+  (    1 /CLK )
+  (    2 GND )
  )
- ( /5051A7C7 1206_Opendous R20 R
-  ( 1 GND )
-  ( 2 N-000009 )
+ ( /5050AC4D $noname  D6 LED {Lib=LED}
+  (    1 N-000017 )
+  (    2 N-000014 )
  )
- ( /5051A7F4 1206_Opendous R21 R
-  ( 1 GND )
-  ( 2 N-000004 )
+ ( /5050AC4C $noname  R12 R {Lib=R}
+  (    1 N-000014 )
+  (    2 GND )
  )
- ( /5051A7F1 1206_Opendous R22 R
-  ( 1 GND )
-  ( 2 N-000003 )
+ ( /5050AC49 $noname  R13 R {Lib=R}
+  (    1 N-000013 )
+  (    2 GND )
  )
- ( /505317AD 1206_Opendous R23 R
-  ( 1 N-000029 )
-  ( 2 N-000032 )
+ ( /5050AC48 $noname  D7 LED {Lib=LED}
+  (    1 N-000015 )
+  (    2 N-000013 )
  )
- ( /505218DA 1206_Opendous R24 1K
-  ( 1 /DIS )
-  ( 2 +5V )
+ ( /5050AC1D $noname  D5 LED {Lib=LED}
+  (    1 N-000016 )
+  (    2 N-000012 )
  )
- ( /511BD374 1206_Opendous R25 1K
-  ( 1 N-000034 )
-  ( 2 N-000008 )
+ ( /5050AC1C $noname  R11 R {Lib=R}
+  (    1 N-000012 )
+  (    2 GND )
  )
- ( /5051A9D1 POT_TC33X_3.8x3mm RV1 POT
-  ( 1 +5V )
-  ( 2 /ANLG_INPUT )
-  ( 3 GND )
+ ( /5050ABAA $noname  R10 R {Lib=R}
+  (    1 N-000019 )
+  (    2 GND )
  )
- ( /5052174F POT_TC33X_3.8x3mm RV2 100K
-  ( 1 N-000011 )
-  ( 2 /DIS )
-  ( 3 N-000010 )
+ ( /5050AB99 $noname  D4 LED {Lib=LED}
+  (    1 N-000018 )
+  (    2 N-000019 )
  )
- ( /5050E70F Switch_SMT_TH_EVQ_TL59 SW4 SW_PUSH
-  ( 1 +5V )
-  ( 2 /CLK )
+ ( /5050AB85 $noname  IC1 4520 {Lib=4520}
+  (    1 /CLK )
+  (    2 +5V )
+  (    3 N-000015 )
+  (    4 N-000017 )
+  (    5 N-000016 )
+  (    6 N-000018 )
+  (    7 GND )
+  (    8 GND )
+  (   16 +5V )
  )
 )
 *
 { Allowed footprints by component:
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D5
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D7
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D8
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D9
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D10
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D11
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
 $component D12
  LED-3MM
@@ -275,6 +204,23 @@ $component D12
  LED-1206
  LEDV
 $endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
 $component D13
  D?
  S*
@@ -283,55 +229,7 @@ $component D14
  D?
  S*
 $endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R11
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R12
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R13
- R?
- SM0603
- SM0805
- R?-*
-$endlist
 $component R14
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R15
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R16
  R?
  SM0603
  SM0805
@@ -349,17 +247,26 @@ $component R18
  SM0805
  R?-*
 $endlist
-$component R19
+$component R16
  R?
  SM0603
  SM0805
  R?-*
 $endlist
-$component R20
+$component R15
  R?
  SM0603
  SM0805
  R?-*
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
 $endlist
 $component R21
  R?
@@ -373,23 +280,257 @@ $component R22
  SM0805
  R?-*
 $endlist
-$component R23
+$component D11
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R20
  R?
  SM0603
  SM0805
  R?-*
 $endlist
-$component R24
+$component R19
  R?
  SM0603
  SM0805
  R?-*
 $endlist
-$component R25
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R8
  R?
  SM0603
  SM0805
  R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "+5V" "+5V"
+ P1 1
+ IC2 4
+ R24 2
+ R8 2
+ IC1 16
+ J1 1
+ IC3 4
+ IC3 8
+ R14 1
+ RV1 1
+ SW4 1
+ D12 1
+ IC1 2
+Net 2 "GND" "GND"
+ R19 1
+ R8 1
+ P1 2
+ IC2 11
+ Q4 1
+ IC1 7
+ IC1 8
+ R9 2
+ R22 1
+ IC3 5
+ R21 1
+ R12 2
+ IC3 1
+ R13 2
+ R11 2
+ R20 1
+ R18 2
+ C2 2
+ RV1 3
+ J1 4
+ R10 2
+Net 3 "" ""
+ D11 2
+ R22 2
+Net 4 "" ""
+ D10 2
+ R21 2
+Net 7 "/THR" "THR"
+ D13 1
+ D14 2
+ IC3 2
+ C2 1
+ IC3 6
+Net 8 "" ""
+ R25 2
+ IC3 3
+Net 9 "" ""
+ D9 2
+ R20 2
+Net 10 "" ""
+ RV2 3
+ D14 1
+Net 11 "" ""
+ D13 2
+ RV2 1
+Net 12 "" ""
+ R11 1
+ D5 2
+Net 13 "" ""
+ R13 1
+ D7 2
+Net 14 "" ""
+ D6 2
+ R12 1
+Net 15 "" ""
+ D7 1
+ IC1 3
+Net 16 "" ""
+ D5 1
+ IC1 5
+Net 17 "" ""
+ IC1 4
+ D6 1
+Net 18 "" ""
+ IC1 6
+ D4 1
+Net 19 "" ""
+ R10 1
+ D4 2
+Net 20 "" ""
+ D9 1
+ IC2 7
+Net 21 "" ""
+ IC2 6
+ R16 1
+ R15 2
+Net 22 "" ""
+ IC2 9
+ R17 1
+ R16 2
+Net 23 "" ""
+ IC2 8
+ D10 1
+Net 24 "" ""
+ D11 1
+ IC2 14
+Net 25 "" ""
+ IC2 13
+ R18 1
+ R17 2
+Net 26 "" ""
+ IC2 2
+ R14 2
+ R15 1
+Net 27 "" ""
+ D8 1
+ IC2 1
+Net 28 "" ""
+ R19 2
+ D8 2
+Net 29 "/CLK" "CLK"
+ IC1 1
+ R9 1
+ SW4 2
+Net 30 "" ""
+ D12 2
+ R23 1
+Net 31 "/DIS" "DIS"
+ IC3 7
+ RV2 2
+ R24 1
+Net 32 "" ""
+ Q4 2
+ R25 1
+Net 33 "" ""
+ R23 2
+ Q4 3
+Net 34 "/ANLG_INPUT" "ANLG_INPUT"
+ IC2 10
+ IC2 5
+ RV1 2
+ IC2 12
+ IC2 3
+}
+#End

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 25 Feb 2013 15:48:30 CET
+EESchema Schematic File Version 2  date Tue 26 Feb 2013 22:33:19 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:npn
+LIBS:SMT4dummies-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SMT4dummies - sideB"
-Date "25 feb 2013"
+Date "26 feb 2013"
 Rev "1"
 Comp "d-Squared Robotics"
 Comment1 "GPLv3"
@@ -43,6 +45,42 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L NPN Q2
+U 1 1 512D297D
+P 9150 6000
+F 0 "Q2" H 9150 5850 50  0000 R CNN
+F 1 "NPN" H 9150 6150 50  0000 R CNN
+	1    9150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q3
+U 1 1 512D297A
+P 10650 6000
+F 0 "Q3" H 10650 5850 50  0000 R CNN
+F 1 "NPN" H 10650 6150 50  0000 R CNN
+	1    10650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 512D2975
+P 8000 5800
+F 0 "Q1" H 8000 5650 50  0000 R CNN
+F 1 "NPN" H 8000 5950 50  0000 R CNN
+	1    8000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q4
+U 1 1 512D2965
+P 5500 5000
+F 0 "Q4" H 5500 4850 50  0000 R CNN
+F 1 "NPN" H 5500 5150 50  0000 R CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
 $Comp
 L R R2
 U 1 1 512B78FE
@@ -291,33 +329,6 @@ Wire Wire Line
 	6600 4400 8100 4400
 Wire Wire Line
 	8750 5300 8650 5300
-$Comp
-L NPN Q1
-U 1 1 512B78ED
-P 8000 5800
-F 0 "Q1" H 8000 5650 50  0000 R CNN
-F 1 "NPN" H 8000 5950 50  0000 R CNN
-	1    8000 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L NPN Q2
-U 1 1 512B78EC
-P 9150 6000
-F 0 "Q2" H 9150 5850 50  0000 R CNN
-F 1 "NPN" H 9150 6150 50  0000 R CNN
-	1    9150 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L NPN Q3
-U 1 1 512B78EB
-P 10650 6000
-F 0 "Q3" H 10650 5850 50  0000 R CNN
-F 1 "NPN" H 10650 6150 50  0000 R CNN
-	1    10650 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 5400 2700 5250
 Wire Wire Line
@@ -685,15 +696,6 @@ P 5600 4500
 F 0 "R23" V 5680 4500 50  0000 C CNN
 F 1 "R" V 5600 4500 50  0000 C CNN
 	1    5600 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L NPN Q4
-U 1 1 5053179A
-P 5500 5000
-F 0 "Q4" H 5500 4850 50  0000 R CNN
-F 1 "NPN" H 5500 5150 50  0000 R CNN
-	1    5500 5000
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1250 2050

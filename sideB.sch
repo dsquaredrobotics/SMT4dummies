@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 14 Feb 2013 10:34:18 CET
+EESchema Schematic File Version 2  date Tue 26 Feb 2013 22:34:39 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:npn
 LIBS:sideB-cache
 EELAYER 25  0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SMT4dummies - sideB"
-Date "14 feb 2013"
+Date "26 feb 2013"
 Rev "1"
 Comp "d-Squared Robotics"
 Comment1 "GPLv3"
@@ -44,12 +45,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L NPN Q4
+U 1 1 512D2A5C
+P 5500 5000
+F 0 "Q4" H 5500 4850 50  0000 R CNN
+F 1 "NPN" H 5500 5150 50  0000 R CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2700 5400 2700 5250
 Wire Wire Line
 	2700 5250 2950 5250
 Wire Wire Line
-	5050 5950 5050 5850
+	5050 5850 5050 5950
 Wire Wire Line
 	3650 5700 3650 5600
 Wire Wire Line
@@ -71,9 +81,9 @@ Wire Wire Line
 Wire Notes Line
 	800  2500 800  1600
 Wire Wire Line
-	1450 2150 1450 2050
+	1450 2050 1450 2150
 Wire Wire Line
-	1250 2150 1450 2150
+	1450 2150 1250 2150
 Connection ~ 1350 2150
 Wire Wire Line
 	1350 2250 1350 2150
@@ -113,7 +123,7 @@ Wire Notes Line
 Wire Wire Line
 	6600 2650 6600 2500
 Wire Wire Line
-	7800 1050 8350 1050
+	8350 1050 7800 1050
 Connection ~ 7800 2050
 Wire Wire Line
 	7800 2050 8100 2050
@@ -411,15 +421,6 @@ P 5600 4500
 F 0 "R23" V 5680 4500 50  0000 C CNN
 F 1 "R" V 5600 4500 50  0000 C CNN
 	1    5600 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L NPN Q4
-U 1 1 5053179A
-P 5500 5000
-F 0 "Q4" H 5500 4850 50  0000 R CNN
-F 1 "NPN" H 5500 5150 50  0000 R CNN
-	1    5500 5000
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1250 2050

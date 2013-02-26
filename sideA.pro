@@ -1,5 +1,25 @@
-update=Mon 25 Feb 2013 03:31:02 PM CET
-last_client=cvpcb
+update=Tue 26 Feb 2013 22:31:52 CET
+last_client=eeschema
+[pcbnew]
+[pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=opendous
+LibName12=rcl
+LibDir=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules;../../../Dropbox/d-squared robotics/SMT4dummies/KiCad Eagle Libraries
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -62,23 +82,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-[pcbnew]
-[pcbnew/libraries]
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=opendous
-LibName12=rcl
-LibDir=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules;../../../Dropbox/d-squared robotics/SMT4dummies/KiCad Eagle Libraries
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName31=npn

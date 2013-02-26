@@ -1,6 +1,6 @@
-update=Mon 25 Feb 2013 15:50:55 CET
+update=Tue 26 Feb 2013 22:29:21 CET
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=320
@@ -69,6 +69,13 @@ LibName10=dip_sockets
 LibName11=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
 LibName12=/home/def/Dropbox/d-squared Robotics/SMT4dummies/KiCad Eagle Libraries/rcl
 LibDir=
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -99,8 +106,6 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
-SimCmd=
-UseNetN=0
 LabSize=60
 [eeschema/libraries]
 LibName1=power
@@ -133,10 +138,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName31=npn
