@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Feb 2013 22:59:04 CET
+EESchema Schematic File Version 2  date Wed 27 Feb 2013 15:26:14 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SMT4dummies - sideB"
-Date "26 feb 2013"
+Date "27 feb 2013"
 Rev "1"
 Comp "d-Squared Robotics"
 Comment1 "GPLv3"
@@ -154,7 +154,6 @@ Wire Notes Line
 	2200 750  6050 750 
 Wire Notes Line
 	6050 750  6050 3200
-Connection ~ 3100 1700
 Connection ~ 2550 1700
 Wire Wire Line
 	2550 2300 2550 2250
@@ -608,7 +607,7 @@ L POT RV1
 U 1 1 5051A9D1
 P 6600 2250
 F 0 "RV1" H 6600 2150 50  0000 C CNN
-F 1 "POT" H 6600 2250 50  0000 C CNN
+F 1 "100K" H 6600 2250 50  0000 C CNN
 	1    6600 2250
 	0    1    1    0   
 $EndComp
@@ -637,7 +636,7 @@ L R R14
 U 1 1 5051A830
 P 7550 1300
 F 0 "R14" V 7630 1300 50  0000 C CNN
-F 1 "R" V 7550 1300 50  0000 C CNN
+F 1 "1K" V 7550 1300 50  0000 C CNN
 	1    7550 1300
 	1    0    0    -1  
 $EndComp
@@ -646,7 +645,7 @@ L R R17
 U 1 1 5051A82E
 P 7550 3100
 F 0 "R17" V 7630 3100 50  0000 C CNN
-F 1 "R" V 7550 3100 50  0000 C CNN
+F 1 "1K" V 7550 3100 50  0000 C CNN
 	1    7550 3100
 	1    0    0    -1  
 $EndComp
@@ -655,7 +654,7 @@ L R R18
 U 1 1 5051A82D
 P 7550 3700
 F 0 "R18" V 7630 3700 50  0000 C CNN
-F 1 "R" V 7550 3700 50  0000 C CNN
+F 1 "1K" V 7550 3700 50  0000 C CNN
 	1    7550 3700
 	1    0    0    -1  
 $EndComp
@@ -664,7 +663,7 @@ L R R16
 U 1 1 5051A821
 P 7550 2500
 F 0 "R16" V 7630 2500 50  0000 C CNN
-F 1 "R" V 7550 2500 50  0000 C CNN
+F 1 "1K" V 7550 2500 50  0000 C CNN
 	1    7550 2500
 	1    0    0    -1  
 $EndComp
@@ -673,7 +672,7 @@ L R R15
 U 1 1 5051A811
 P 7550 1900
 F 0 "R15" V 7630 1900 50  0000 C CNN
-F 1 "R" V 7550 1900 50  0000 C CNN
+F 1 "1K" V 7550 1900 50  0000 C CNN
 	1    7550 1900
 	1    0    0    -1  
 $EndComp
