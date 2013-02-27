@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Feb 2013 22:56:48 CET
+EESchema Schematic File Version 2  date Wed 27 Feb 2013 15:39:57 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "SMT4dummies - sideA"
-Date "26 feb 2013"
+Date "27 feb 2013"
 Rev ""
 Comp "d-Squared Robotics"
 Comment1 "GPLv3"
@@ -318,7 +318,7 @@ L R R4
 U 1 1 5055B3BC
 P 6550 2600
 F 0 "R4" V 6630 2600 50  0000 C CNN
-F 1 "R" V 6550 2600 50  0000 C CNN
+F 1 "22K" V 6550 2600 50  0000 C CNN
 	1    6550 2600
 	0    1    1    0   
 $EndComp
@@ -327,7 +327,7 @@ L R R5
 U 1 1 5055B3AE
 P 6550 2800
 F 0 "R5" V 6630 2800 50  0000 C CNN
-F 1 "R" V 6550 2800 50  0000 C CNN
+F 1 "22K" V 6550 2800 50  0000 C CNN
 	1    6550 2800
 	0    1    1    0   
 $EndComp
@@ -410,7 +410,7 @@ L R R1
 U 1 1 5051AD8C
 P 3700 2750
 F 0 "R1" V 3780 2750 50  0000 C CNN
-F 1 "R" V 3700 2750 50  0000 C CNN
+F 1 "22K" V 3700 2750 50  0000 C CNN
 	1    3700 2750
 	0    1    1    0   
 $EndComp

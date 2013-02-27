@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 26 Feb 2013 22:56:53 CET
+# EESchema Netlist Version 1.1 created  Wed 27 Feb 2013 15:50:02 CET
 (
  ( /512D29D8 $noname  Q3 NPN {Lib=NPN}
   (    1 GND )
@@ -33,11 +33,11 @@
   (    1 GND )
   (    2 N-000014 )
  )
- ( /5055B3BC $noname  R4 R {Lib=R}
+ ( /5055B3BC $noname  R4 22K {Lib=R}
   (    1 N-000007 )
   (    2 N-000011 )
  )
- ( /5055B3AE $noname  R5 R {Lib=R}
+ ( /5055B3AE $noname  R5 22K {Lib=R}
   (    1 N-000014 )
   (    2 N-000008 )
  )
@@ -57,7 +57,7 @@
   (    1 +5V )
   (    2 N-000010 )
  )
- ( /5051AD8C $noname  R1 R {Lib=R}
+ ( /5051AD8C $noname  R1 22K {Lib=R}
   (    1 N-000012 )
   (    2 N-000005 )
  )
