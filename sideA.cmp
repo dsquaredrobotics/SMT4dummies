@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 26 Feb 2013 22:41:03 CET
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Wed 27 Feb 2013 15:44:41 CET
 
 BeginCmp
 TimeStamp = /5051A92A;
 Reference = C1;
 ValeurCmp = CP1;
-IdModule  = ;
+IdModule  = rcl-SANYO-OSCON_SMD_C6;
 EndCmp
 
 BeginCmp
@@ -73,14 +73,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5051A90B;
 Reference = R2;
-ValeurCmp = R;
+ValeurCmp = 150R;
 IdModule  = 1206_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /5055AFCA;
 Reference = R3;
-ValeurCmp = R;
+ValeurCmp = 150R;
 IdModule  = 1206_Opendous;
 EndCmp
 
@@ -101,7 +101,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5055AFCE;
 Reference = R6;
-ValeurCmp = R;
+ValeurCmp = 150R;
 IdModule  = 1206_Opendous;
 EndCmp
 
