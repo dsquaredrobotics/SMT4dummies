@@ -1,4 +1,4 @@
-update=Wed 27 Feb 2013 15:52:55 CET
+update=Wed 27 Feb 2013 06:57:27 PM CET
 version=1
 last_client=pcbnew
 [general]
@@ -87,7 +87,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=sideB.net
+LastNetListRead=sideA.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets

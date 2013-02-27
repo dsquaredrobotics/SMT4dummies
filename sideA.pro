@@ -1,4 +1,4 @@
-update=Wed 27 Feb 2013 15:43:50 CET
+update=Wed 27 Feb 2013 05:53:43 PM CET
 last_client=cvpcb
 [pcbnew]
 [pcbnew/libraries]
@@ -14,7 +14,7 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=opendous
 LibName12=rcl
-LibDir=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules;/home/def/Dropbox/d-squared Robotics/SMT4dummies/KiCad Eagle Libraries
+LibDir=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules;/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/KiCad Eagle Libraries
 [eeschema]
 version=1
 LibDir=
