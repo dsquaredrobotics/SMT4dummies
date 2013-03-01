@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 28 Feb 2013 12:07:41 AM CET
+PCBNEW-BOARD Version 1 date Fri 01 Mar 2013 23:53:47 CET
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "27 feb 2013"
+Date "1 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -35,7 +35,7 @@ InternalUnit 0.000100 INCH
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 80
+TrackWidth 120
 TrackClearence 100
 ZoneClearence 200
 TrackMinWidth 80
@@ -210,18 +210,16 @@ $NCLASS
 Name "Default"
 Desc "This is the default net class."
 Clearance 100
-TrackWidth 80
+TrackWidth 120
 ViaDia 350
 ViaDrill 250
 uViaDia 200
 uViaDrill 50
 AddNet ""
-AddNet "+5V"
 AddNet "/ANLG_INPUT"
 AddNet "/CLK"
 AddNet "/DIS"
 AddNet "/THR"
-AddNet "GND"
 AddNet "N-000003"
 AddNet "N-000005"
 AddNet "N-000006"
@@ -251,6 +249,18 @@ AddNet "N-000030"
 AddNet "N-000031"
 AddNet "N-000033"
 AddNet "N-000039"
+$EndNCLASS
+$NCLASS
+Name "Power"
+Desc ""
+Clearance 100
+TrackWidth 250
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet "+5V"
+AddNet "GND"
 $EndNCLASS
 $MODULE C1
 Po 52750 41000 2700 15 512E3BED 512E1D59 ~~
