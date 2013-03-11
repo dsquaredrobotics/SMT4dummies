@@ -1,4 +1,4 @@
-update=Wed 27 Feb 2013 06:57:27 PM CET
+update=Mon 11 Mar 2013 14:57:06 CET
 version=1
 last_client=pcbnew
 [general]
@@ -87,7 +87,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=sideA.net
+LastNetListRead=SMT4dummies.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -102,3 +102,4 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
 LibName12=/home/def/Dropbox/d-squared Robotics/SMT4dummies/KiCad Eagle Libraries/rcl
+LibName13=logo
