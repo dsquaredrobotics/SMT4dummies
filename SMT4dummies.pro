@@ -1,13 +1,8 @@
-update=Mon 11 Mar 2013 14:57:06 CET
+update=Thu 14 Mar 2013 03:38:03 PM CET
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -89,7 +84,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=SMT4dummies.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -100,6 +94,10 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
-LibName12=/home/def/Dropbox/d-squared Robotics/SMT4dummies/KiCad Eagle Libraries/rcl
-LibName13=logo
+LibName11=untitled
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
