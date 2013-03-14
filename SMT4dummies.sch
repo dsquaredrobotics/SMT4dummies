@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Mar 2013 14:08:08 CET
+EESchema Schematic File Version 2  date Thu 14 Mar 2013 22:26:49 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
-Title "SMT4dummies - sideB"
+Title "SMT4dummies"
 Date "4 mar 2013"
 Rev "1"
 Comp "d-Squared Robotics"
