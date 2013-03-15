@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 14 Mar 2013 23:31:26 CET
+PCBNEW-BOARD Version 1 date Fri 15 Mar 2013 15:38:27 CET
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "14 mar 2013"
+Date "15 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2640,7 +2640,7 @@ Po 0 49900 33600 49900 32100 150
 De 23 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "SMT4dummies"
+Te "SMT4dummies v1.0"
 nl "d-Squared Robotics"
 Po 52450 29500 295 394 74 0
 De 21 1 0 Normal
