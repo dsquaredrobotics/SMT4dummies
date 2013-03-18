@@ -1,4 +1,4 @@
-update=Tue 19 Mar 2013 12:01:19 AM CET
+update=Tue 19 Mar 2013 12:20:39 AM CET
 version=1
 last_client=cvpcb
 [general]
@@ -94,7 +94,7 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
+LibName11=Custom Library
 LibDir=
 [cvpcb]
 version=1
