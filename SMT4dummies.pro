@@ -1,4 +1,4 @@
-update=Thu 14 Mar 2013 03:38:03 PM CET
+update=Mon 18 Mar 2013 09:46:36 PM CET
 version=1
 last_client=cvpcb
 [general]
@@ -94,7 +94,6 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=untitled
 LibDir=
 [cvpcb]
 version=1
