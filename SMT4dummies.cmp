@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Sat 23 Mar 2013 05:43:48 PM CET
+Cmp-Mod V01 Genere par PcbNew le Sat 23 Mar 2013 07:36:53 PM CET
 
 BeginCmp
 TimeStamp = /512B78FD;
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /512B78FA;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -200,14 +200,14 @@ BeginCmp
 TimeStamp = /512B78F0;
 Reference = R4;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /512B78F1;
 Reference = R5;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
