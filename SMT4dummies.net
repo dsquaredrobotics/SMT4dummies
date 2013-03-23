@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 21 Mar 2013 21:59:58 CET
+# EESchema Netlist Version 1.1 created  Sat 23 Mar 2013 05:42:50 PM CET
 (
  ( /512B78FD CAPACITOR_SMD_C6 C1 CP1
   ( 1 N-000049 )
@@ -98,7 +98,7 @@
   ( 13 N-000027 )
   ( 14 N-000026 )
  )
- ( /50521740 SO8E_4x5mm_OPENDOUS IC3 LM555N
+ ( /50521740 SSOP8 IC3 LM555N
   ( 1 GND )
   ( 2 /THR )
   ( 3 N-000033 )
