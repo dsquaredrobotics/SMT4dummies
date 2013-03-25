@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Mon 25 Mar 2013 12:11:55 PM CET
+PCBNEW-BOARD Version 2 date Mon 25 Mar 2013 12:40:09 PM CET
 
 # Created by Pcbnew(2013-mar-13)-testing
 
@@ -58,7 +58,7 @@ TextModSize 1.524 1.524
 TextModWidth 0.3048
 PadSize 1.524 1.524
 PadDrill 0.8128
-Pad2MaskClearance 0.254
+Pad2MaskClearance 0.1
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFFFFFF
