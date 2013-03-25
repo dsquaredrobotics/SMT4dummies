@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Sat 23 Mar 2013 07:36:53 PM CET
+Cmp-Mod V01 Genere par PcbNew le Mon 25 Mar 2013 02:51:00 AM CET
 
 BeginCmp
 TimeStamp = /512B78FD;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /50521A7A;
 Reference = C2;
 ValeurCmp = 0.1uF;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -39,63 +39,63 @@ BeginCmp
 TimeStamp = /51348EAB;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA6;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA0;
 Reference = D6;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA5;
 Reference = D7;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A6DD;
 Reference = D8;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7C8;
 Reference = D9;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7F5;
 Reference = D10;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7F0;
 Reference = D11;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /505317BD;
 Reference = D12;
 ValeurCmp = LED;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -221,49 +221,49 @@ BeginCmp
 TimeStamp = /51475B67;
 Reference = R8;
 ValeurCmp = 4.7K;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /51348E9F;
 Reference = R9;
 ValeurCmp = 4.7K;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EAA;
 Reference = R10;
 ValeurCmp = 150R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA7;
 Reference = R11;
 ValeurCmp = 150R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA1;
 Reference = R12;
 ValeurCmp = 150R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA4;
 Reference = R13;
 ValeurCmp = 150R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A830;
 Reference = R14;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -277,63 +277,63 @@ BeginCmp
 TimeStamp = /5051A821;
 Reference = R16;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A82E;
 Reference = R17;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A82D;
 Reference = R18;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A727;
 Reference = R19;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7C7;
 Reference = R20;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7F4;
 Reference = R21;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7F1;
 Reference = R22;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /505317AD;
 Reference = R23;
 ValeurCmp = R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /505218DA;
 Reference = R24;
 ValeurCmp = 1K;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
