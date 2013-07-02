@@ -1,39 +1,8 @@
-update=Sat 15 Jun 2013 01:39:14 CEST
+update=Tue 02 Jul 2013 07:07:02 PM CEST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
-[pcbnew]
-version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=SMT4dummies.net
-[pcbnew/libraries]
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=Custom Library
-LibName12=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
-LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -79,3 +48,37 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=SMT4dummies.net
+UseCmpFile=1
+PadDrill=1.016
+PadSizeH=1.016
+PadSizeV=1.016
+PcbTextSizeV=2.032
+PcbTextSizeH=1.524
+PcbTextThickness=0.3048
+ModuleTextSizeV=1.524
+ModuleTextSizeH=1.524
+ModuleTextSizeThickness=0.3048
+SolderMaskClearance=0.1
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.381
+BoardOutlineThickness=0.381
+ModuleOutlineThickness=0.381
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=Custom Library
+LibName12=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
+LibName13=/mnt/hgfs/David/Downloads/SOD123
+LibName14=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous

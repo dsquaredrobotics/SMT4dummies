@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 15 Jun 2013 01:41:49 CEST
+Cmp-Mod V01 Created by PcbNew date = Tue 02 Jul 2013 07:33:45 PM CEST
 
 BeginCmp
 TimeStamp = /512B78FD;
@@ -102,14 +102,14 @@ BeginCmp
 TimeStamp = /50521764;
 Reference = D13;
 ValeurCmp = 1N4148;
-IdModule  = SMD_SOD123;
+IdModule  = SOD123(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /5052175B;
 Reference = D14;
 ValeurCmp = 1N4148;
-IdModule  = SMD_SOD123;
+IdModule  = SOD123(generic);
 EndCmp
 
 BeginCmp
@@ -148,30 +148,30 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /512D2975;
+TimeStamp = /51D1B1E1;
 Reference = Q1;
 ValeurCmp = BC847;
 IdModule  = SOT23-3_OPENDOUS;
 EndCmp
 
 BeginCmp
-TimeStamp = /512D297D;
+TimeStamp = /51D1B1D6;
 Reference = Q2;
 ValeurCmp = BC847;
 IdModule  = SOT23-3_OPENDOUS;
 EndCmp
 
 BeginCmp
-TimeStamp = /512D297A;
+TimeStamp = /51D1B1A1;
 Reference = Q3;
 ValeurCmp = BC847;
 IdModule  = SOT23-3_OPENDOUS;
 EndCmp
 
 BeginCmp
-TimeStamp = /512D2965;
+TimeStamp = /51D1B1EC;
 Reference = Q4;
-ValeurCmp = BC487;
+ValeurCmp = BC847;
 IdModule  = SOT23-3_OPENDOUS;
 EndCmp
 
