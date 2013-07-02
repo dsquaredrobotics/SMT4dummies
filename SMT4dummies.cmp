@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Tue 02 Jul 2013 07:33:45 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Tue 02 Jul 2013 10:00:02 PM CEST
 
 BeginCmp
 TimeStamp = /512B78FD;
@@ -361,28 +361,28 @@ BeginCmp
 TimeStamp = /512B78FB;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = SWITCH_SMD_TH_EVQ_TL59;
+IdModule  = Switch_SMT_TH_EVQ_TL59(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /512B78EE;
 Reference = SW2;
 ValeurCmp = SW_PUSH;
-IdModule  = SWITCH_SMD_TH_EVQ_TL59;
+IdModule  = Switch_SMT_TH_EVQ_TL59(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /512B78EF;
 Reference = SW3;
 ValeurCmp = SW_PUSH;
-IdModule  = SWITCH_SMD_TH_EVQ_TL59;
+IdModule  = Switch_SMT_TH_EVQ_TL59(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /51348E9C;
 Reference = SW4;
 ValeurCmp = SW_PUSH;
-IdModule  = SWITCH_SMD_TH_EVQ_TL59;
+IdModule  = Switch_SMT_TH_EVQ_TL59(generic);
 EndCmp
 
 EndListe
