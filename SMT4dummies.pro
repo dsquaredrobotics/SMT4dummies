@@ -1,6 +1,6 @@
-update=Tue 02 Jul 2013 07:07:02 PM CEST
+update=Wed 03 Jul 2013 09:10:59 PM CEST
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -43,11 +43,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=npn
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=SMT4dummies.net
@@ -67,7 +62,6 @@ DrawSegmentWidth=0.381
 BoardOutlineThickness=0.381
 ModuleOutlineThickness=0.381
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -79,6 +73,10 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=Custom Library
-LibName12=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
-LibName13=/mnt/hgfs/David/Downloads/SOD123
-LibName14=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
+LibName12=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

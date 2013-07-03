@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Tue 02 Jul 2013 10:00:02 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Wed 03 Jul 2013 09:14:21 PM CEST
 
 BeginCmp
 TimeStamp = /512B78FD;
@@ -137,7 +137,7 @@ BeginCmp
 TimeStamp = /505223AD;
 Reference = J1;
 ValeurCmp = USB_2;
-IdModule  = CONN_USB2_MiniB_SMD;
+IdModule  = CONN_USB_microAB_ZX62-AB-5PA-11;
 EndCmp
 
 BeginCmp
