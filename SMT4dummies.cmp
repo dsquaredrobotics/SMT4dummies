@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 03 Jul 2013 09:14:21 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Thu 04 Jul 2013 01:36:05 AM CEST
 
 BeginCmp
 TimeStamp = /512B78FD;
@@ -11,91 +11,91 @@ BeginCmp
 TimeStamp = /50521A7A;
 Reference = C2;
 ValeurCmp = 0.1uF;
-IdModule  = SM1206;
+IdModule  = SM1206_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /512B78FC;
 Reference = D1;
 ValeurCmp = GREEN;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM1206_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /512B78F7;
 Reference = D2;
 ValeurCmp = YELLOW;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM1206_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /512B78F6;
 Reference = D3;
 ValeurCmp = YELLOW;
-IdModule  = LED_SMD_1206_OPENDOUS;
+IdModule  = SM1206_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EAB;
 Reference = D4;
 ValeurCmp = ORANGE;
-IdModule  = SM0805;
+IdModule  = SM0805_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA6;
 Reference = D5;
 ValeurCmp = ORANGE;
-IdModule  = SM0805;
+IdModule  = SM0805_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA0;
 Reference = D6;
 ValeurCmp = ORANGE;
-IdModule  = SM0805;
+IdModule  = SM0805_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /51348EA5;
 Reference = D7;
 ValeurCmp = ORANGE;
-IdModule  = SM0805;
+IdModule  = SM0805_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A6DD;
 Reference = D8;
 ValeurCmp = BLUE;
-IdModule  = SM0603;
+IdModule  = SM0603_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7C8;
 Reference = D9;
 ValeurCmp = GREEN;
-IdModule  = SM0603;
+IdModule  = SM0603_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7F5;
 Reference = D10;
 ValeurCmp = YELLOW;
-IdModule  = SM0603;
+IdModule  = SM0603_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /5051A7F0;
 Reference = D11;
 ValeurCmp = RED;
-IdModule  = SM0603;
+IdModule  = SM0603_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
 TimeStamp = /505317BD;
 Reference = D12;
 ValeurCmp = ORANGE;
-IdModule  = SM0805;
+IdModule  = SM0805_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
@@ -179,21 +179,21 @@ BeginCmp
 TimeStamp = /512B78FA;
 Reference = R1;
 ValeurCmp = 22K;
-IdModule  = SM0603;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /512B78FE;
 Reference = R2;
 ValeurCmp = 150R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /512B78F5;
 Reference = R3;
 ValeurCmp = 150R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -214,7 +214,7 @@ BeginCmp
 TimeStamp = /512B78F4;
 Reference = R6;
 ValeurCmp = 150R;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -270,7 +270,7 @@ BeginCmp
 TimeStamp = /5051A811;
 Reference = R15;
 ValeurCmp = 1K;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -305,7 +305,7 @@ BeginCmp
 TimeStamp = /5051A7C7;
 Reference = R20;
 ValeurCmp = 150R;
-IdModule  = SM0603;
+IdModule  = SM1206_Opendous_LED(generic);
 EndCmp
 
 BeginCmp
@@ -340,7 +340,7 @@ BeginCmp
 TimeStamp = /511BD374;
 Reference = R25;
 ValeurCmp = 1K;
-IdModule  = GENERIC_SMD_1206_OPENDOUS;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
