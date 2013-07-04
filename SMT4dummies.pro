@@ -1,35 +1,12 @@
-update=Tue 19 Mar 2013 12:20:39 AM CET
+update=Thu 04 Jul 2013 00:48:48 CEST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
 version=1
 LibDir=
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
+NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -66,24 +43,32 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=npn
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
 LastNetListRead=SMT4dummies.net
+UseCmpFile=1
+PadDrill="    1,016000"
+PadDrillOvalY="    1,016000"
+PadSizeH="    1,016000"
+PadSizeV="    1,016000"
+PcbTextSizeV="    2,032000"
+PcbTextSizeH="    1,524000"
+PcbTextThickness="    0,304800"
+ModuleTextSizeV="    1,524000"
+ModuleTextSizeH="    1,524000"
+ModuleTextSizeThickness="    0,304800"
+SolderMaskClearance="    0,100000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,381000"
+BoardOutlineThickness="    0,381000"
+ModuleOutlineThickness="    0,381000"
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -95,9 +80,5 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=Custom Library
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName12=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
+LibName13=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
