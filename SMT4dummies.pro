@@ -1,6 +1,6 @@
-update=Wed 03 Jul 2013 09:10:59 PM CEST
+update=Thu 04 Jul 2013 00:48:48 CEST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -43,25 +43,32 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=npn
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=SMT4dummies.net
 UseCmpFile=1
-PadDrill=1.016
-PadSizeH=1.016
-PadSizeV=1.016
-PcbTextSizeV=2.032
-PcbTextSizeH=1.524
-PcbTextThickness=0.3048
-ModuleTextSizeV=1.524
-ModuleTextSizeH=1.524
-ModuleTextSizeThickness=0.3048
-SolderMaskClearance=0.1
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.381
-BoardOutlineThickness=0.381
-ModuleOutlineThickness=0.381
+PadDrill="    1,016000"
+PadDrillOvalY="    1,016000"
+PadSizeH="    1,016000"
+PadSizeV="    1,016000"
+PcbTextSizeV="    2,032000"
+PcbTextSizeH="    1,524000"
+PcbTextThickness="    0,304800"
+ModuleTextSizeV="    1,524000"
+ModuleTextSizeH="    1,524000"
+ModuleTextSizeThickness="    0,304800"
+SolderMaskClearance="    0,100000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,381000"
+BoardOutlineThickness="    0,381000"
+ModuleOutlineThickness="    0,381000"
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -74,9 +81,4 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=Custom Library
 LibName12=/mnt/hgfs/David/Dropbox/d-squared robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName13=/home/def/Dropbox/d-squared Robotics/SMT4dummies/Opendous Kicad Libraries and Modules/opendous
