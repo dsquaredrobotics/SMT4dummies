@@ -1,9 +1,6 @@
 # SMT4dummies
-===========
 
 ![](https://github.com/dsquaredrobotics/SMT4dummies/blob/master/doc/img/PCB.png)
-
-===========
 
 ####Project
 
@@ -15,7 +12,7 @@ SMT4dummies is a Simple SMT soldering practice PCB.
 
 Published under a GPLv3 lincense. More details on LICENSE.txt
 
-![](https://github.com/dsquaredrobotics/SMT4dummies/blob/master/doc/img/SMT4dummies.png)
+![](https://github.com/dsquaredrobotics/SMT4dummies/blob/master/doc/img/SMT4dummies.jpg)
 
 ![](https://github.com/dsquaredrobotics/SMT4dummies/blob/master/doc/img/PCB_assembled.png)
 
