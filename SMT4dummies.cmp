@@ -1,0 +1,416 @@
+Cmp-Mod V01 Created by Cvpcb 0.201505162027+5655~23~ubuntu14.04.1-product   date = Do 10 Sep 2015 18:34:14 CEST
+
+BeginCmp
+TimeStamp = /512B78FD;
+Reference = C1;
+ValeurCmp = 22uF;
+IdModule  = SMT4dummies module library:Capacitor_SMD_5.3×5.3x5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /50521A7A;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SMT4dummies module library:SMD_1206_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78FC;
+Reference = D1;
+ValeurCmp = GREEN;
+IdModule  = SMT4dummies module library:SMD_1206_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78F7;
+Reference = D2;
+ValeurCmp = YELLOW;
+IdModule  = SMT4dummies module library:SMD_1206_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78F6;
+Reference = D3;
+ValeurCmp = YELLOW;
+IdModule  = SMT4dummies module library:SMD_1206_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EAB;
+Reference = D4;
+ValeurCmp = ORANGE;
+IdModule  = SMT4dummies module library:SMD_0805_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EA6;
+Reference = D5;
+ValeurCmp = ORANGE;
+IdModule  = SMT4dummies module library:SMD_0805_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EA0;
+Reference = D6;
+ValeurCmp = ORANGE;
+IdModule  = SMT4dummies module library:SMD_0805_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EA5;
+Reference = D7;
+ValeurCmp = ORANGE;
+IdModule  = SMT4dummies module library:SMD_0805_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A6DD;
+Reference = D8;
+ValeurCmp = BLUE;
+IdModule  = SMT4dummies module library:SMD_0603_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A7C8;
+Reference = D9;
+ValeurCmp = GREEN;
+IdModule  = SMT4dummies module library:SMD_0603_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A7F5;
+Reference = D10;
+ValeurCmp = YELLOW;
+IdModule  = SMT4dummies module library:SMD_0603_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A7F0;
+Reference = D11;
+ValeurCmp = RED;
+IdModule  = SMT4dummies module library:SMD_0603_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /505317BD;
+Reference = D12;
+ValeurCmp = ORANGE;
+IdModule  = SMT4dummies module library:SMD_0805_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F218ED;
+Reference = D13;
+ValeurCmp = 1N4148;
+IdModule  = SMT4dummies module library:SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F21B89;
+Reference = D14;
+ValeurCmp = 1N4148;
+IdModule  = SMT4dummies module library:SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D56DF9;
+Reference = D15;
+ValeurCmp = GREEN;
+IdModule  = SMT4dummies module library:SMD_0402_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EAC;
+Reference = IC1;
+ValeurCmp = 4520;
+IdModule  = SMT4dummies module library:SOIC16_NS_CD4520_BNSR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A60E;
+Reference = IC2;
+ValeurCmp = LM2902N;
+IdModule  = SMT4dummies module library:SOIC14-LM2902NSR;
+EndCmp
+
+BeginCmp
+TimeStamp = /50521740;
+Reference = IC3;
+ValeurCmp = LM555N;
+IdModule  = SMT4dummies module library:TSSOP-8_555_Timer;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F23321;
+Reference = J1;
+ValeurCmp = USB_B;
+IdModule  = SMT4dummies module library:Connector_USB_microAB_ZX62-AB-5PA-11;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F20648;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = SMT4dummies module library:Pin_Header_Straight_1x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1B1E1;
+Reference = Q1;
+ValeurCmp = BC847;
+IdModule  = SMT4dummies module library:SMD_SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1B1D6;
+Reference = Q2;
+ValeurCmp = BC847;
+IdModule  = SMT4dummies module library:SMD_SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1B1A1;
+Reference = Q3;
+ValeurCmp = BC847;
+IdModule  = SMT4dummies module library:SMD_SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D1B1EC;
+Reference = Q4;
+ValeurCmp = BC847;
+IdModule  = SMT4dummies module library:SMD_SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78FA;
+Reference = R1;
+ValeurCmp = 22K;
+IdModule  = SMT4dummies module library:SMD_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78FE;
+Reference = R2;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78F5;
+Reference = R3;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78F0;
+Reference = R4;
+ValeurCmp = 22K;
+IdModule  = SMT4dummies module library:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78F1;
+Reference = R5;
+ValeurCmp = 22K;
+IdModule  = SMT4dummies module library:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78F4;
+Reference = R6;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51475B67;
+Reference = R8;
+ValeurCmp = 4.7K;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348E9F;
+Reference = R9;
+ValeurCmp = 4.7K;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EAA;
+Reference = R10;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EA7;
+Reference = R11;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EA1;
+Reference = R12;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348EA4;
+Reference = R13;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A830;
+Reference = R14;
+ValeurCmp = 1K;
+IdModule  = SMT4dummies module library:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A811;
+Reference = R15;
+ValeurCmp = 1K;
+IdModule  = SMT4dummies module library:SMD_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A821;
+Reference = R16;
+ValeurCmp = 1K;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A82E;
+Reference = R17;
+ValeurCmp = 1K;
+IdModule  = SMT4dummies module library:SMD_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A82D;
+Reference = R18;
+ValeurCmp = 1K;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A727;
+Reference = R19;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A7C7;
+Reference = R20;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A7F4;
+Reference = R21;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A7F1;
+Reference = R22;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505317AD;
+Reference = R23;
+ValeurCmp = 150R;
+IdModule  = SMT4dummies module library:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /505218DA;
+Reference = R24;
+ValeurCmp = 1K;
+IdModule  = SMT4dummies module library:SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BD374;
+Reference = R25;
+ValeurCmp = 1K;
+IdModule  = SMT4dummies module library:SMD_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D56E18;
+Reference = R26;
+ValeurCmp = 50R;
+IdModule  = SMT4dummies module library:SMD_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D56E1E;
+Reference = R27;
+ValeurCmp = 50R;
+IdModule  = SMT4dummies module library:SMD_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D56E24;
+Reference = R28;
+ValeurCmp = 50R;
+IdModule  = SMT4dummies module library:SMD_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5051A9D1;
+Reference = RV1;
+ValeurCmp = 100K;
+IdModule  = SMT4dummies module library:POT_TC33X_3.8x3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5052174F;
+Reference = RV2;
+ValeurCmp = 100K;
+IdModule  = SMT4dummies module library:POT_TC33X_3.8x3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78FB;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SMT4dummies module library:Switch_SMT_TH_EVQ_TL59;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78EE;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SMT4dummies module library:Switch_SMT_TH_EVQ_TL59;
+EndCmp
+
+BeginCmp
+TimeStamp = /512B78EF;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = SMT4dummies module library:Switch_SMT_TH_EVQ_TL59;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348E9C;
+Reference = SW4;
+ValeurCmp = SW_PUSH;
+IdModule  = SMT4dummies module library:Switch_SMT_TH_EVQ_TL59;
+EndCmp
+
+EndListe
