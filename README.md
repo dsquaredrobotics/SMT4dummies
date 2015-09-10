@@ -4,7 +4,7 @@
 
 ####Project
 
-SMT4dummies is a Simple SMT soldering practice PCB.
+SMT4dummies is an SMT soldering practice kit.
 
 ###More info on [d-dquared:robotics](http://www.dsquaredrobotics.com/projects/smt4dummies/)
 
